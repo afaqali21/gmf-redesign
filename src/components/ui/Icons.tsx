@@ -133,3 +133,75 @@ export const SocialIcon = ({ name, ...p }: IconProps & { name: string }) => {
     </svg>
   );
 };
+
+export const TaxiIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M9 4h6l1 3M5 17h14M5 17a2 2 0 0 1-2-2v-3l2-5h14l2 5v3a2 2 0 0 1-2 2M5 17v2M19 17v2" />
+    <circle cx="7.5" cy="13.5" r="1" />
+    <circle cx="16.5" cy="13.5" r="1" />
+  </Svg>
+);
+
+export const SmartphoneIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <rect x="6" y="2" width="12" height="20" rx="2.5" />
+    <path d="M11 18h2" />
+  </Svg>
+);
+
+export const SearchIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <circle cx="11" cy="11" r="7" />
+    <path d="m20 20-3.5-3.5" />
+  </Svg>
+);
+
+export const TargetIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <circle cx="12" cy="12" r="5" />
+    <circle cx="12" cy="12" r="1" />
+  </Svg>
+);
+
+export const ShareIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <circle cx="18" cy="5" r="2.5" />
+    <circle cx="6" cy="12" r="2.5" />
+    <circle cx="18" cy="19" r="2.5" />
+    <path d="m8.2 10.8 7.6-4.4M8.2 13.2l7.6 4.4" />
+  </Svg>
+);
+
+export const CloudIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M17.5 19a4.5 4.5 0 1 0-1.4-8.8A6 6 0 0 0 4.3 12.5 3.5 3.5 0 0 0 6.5 19z" />
+  </Svg>
+);
+
+export const SparklesIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 3l1.8 4.7L18.5 9.5l-4.7 1.8L12 16l-1.8-4.7L5.5 9.5l4.7-1.8zM19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z" />
+  </Svg>
+);
+
+export const UserIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <circle cx="12" cy="8" r="4" />
+    <path d="M4 21a8 8 0 0 1 16 0" />
+  </Svg>
+);
+
+export const MapPinIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z" />
+    <circle cx="12" cy="10" r="2.5" />
+  </Svg>
+);
+
+export const GlobeIcon = (p: IconProps) => (
+  <Svg {...p}>
+    <circle cx="12" cy="12" r="9" />
+    <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
+  </Svg>
+);

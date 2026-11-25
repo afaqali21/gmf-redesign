@@ -17,6 +17,10 @@ export const hero = {
   title: "SEO-focused digital marketing that turns clicks into customers.",
   intro:
     "SEO techniques with powerful digital marketing strategies to increase visibility, attract the right audience, and convert them into loyal customers.",
+  featured: [
+    { label: "AI & Human Call Center", href: "#call-center" },
+    { label: "Taxi & Minicab Dispatch", href: "#taxi-dispatch" },
+  ],
   note: "Creating meaningful change with digital solutions that are sustainable, inclusive, and ethically driven.",
   pillars: [
     {
@@ -71,90 +75,149 @@ export const trusted = {
     { value: 1, prefix: "", suffix: "K+", label: "Projects Completed" },
     { value: 100, prefix: "", suffix: "%", label: "On Time Delivery Record" },
     { value: 85, prefix: "", suffix: "%", label: "Repeat Business Rate" },
-    { value: 99, prefix: "", suffix: "+", label: "Client Satisfaction" },
+    { value: 99, prefix: "", suffix: "%+", label: "Client Satisfaction" },
   ],
 };
 
-export type ServiceGroup = {
+export type ServiceIcon =
+  | "headset"
+  | "taxi"
+  | "code"
+  | "smartphone"
+  | "search"
+  | "target"
+  | "share"
+  | "palette"
+  | "cloud";
+
+export type Service = {
   title: string;
-  icon: "code" | "palette" | "megaphone" | "support" | "server";
+  text: string;
+  icon: ServiceIcon;
+  featured?: boolean;
+  /** Short tags shown on featured cards. */
+  tags?: string[];
+  /** Service details carried over from the WordPress homepage (shown under "What's included"). */
   items: string[];
   links: { label: string; href: string }[];
 };
 
+// Service headings and copy supplied by GMF (2026-11-25). The bullet items are the
+// original homepage service lists, regrouped under the matching service.
 export const services = {
   eyebrow: "Our services",
   title: "Complete digital solution",
   cta: { label: "More about our services", href: "/about/" },
-  groups: [
+  items: [
     {
-      title: "Development and Strategic Consulting",
+      title: "AI & Human Call Center Solutions",
+      text: "Deliver 24/7 customer support, inbound/outbound communication, and lead handling powered by intelligent AI voice/chat workflows alongside trained human agents.",
+      icon: "headset",
+      featured: true,
+      tags: ["24/7 support", "AI voice & chat", "Human agents", "Lead handling"],
+      items: [],
+      links: [
+        { label: "Explore call center", href: "#call-center" },
+        { label: "Talk to us", href: "/contact/" },
+      ],
+    },
+    {
+      title: "Taxi & Minicab Operations, Dispatching & Dashboards",
+      text: "Provide 24/7 live dispatch support, trained call handlers, and real-time booking management across phone, WhatsApp, web, and mobile apps.",
+      icon: "taxi",
+      featured: true,
+      tags: ["Live dispatch", "Multi-channel booking", "Dashboards", "Autocab · iCabbi · Cordic"],
+      items: [],
+      links: [
+        { label: "Explore dispatch", href: "#taxi-dispatch" },
+        { label: "Minicabs Solutions", href: "/minicabs-solutions/" },
+      ],
+    },
+    {
+      title: "Web Design & Custom Web Development",
+      text: "Build fast, responsive, custom-coded websites and bespoke web applications tailored to business goals rather than rigid templates.",
       icon: "code",
       items: [
         "Custom Web & Mobile Applications",
         "Full-Stack Development Expertise",
         "Custom Software Development",
-        "API Integration & Third-Party Services",
         "CMS Development (WordPress, Shopify, etc.)",
         "E-commerce Solutions with Payment Integration and checkout flows",
       ],
       links: [
+        { label: "Web Design", href: "/web-design/" },
         { label: "Web Development", href: "/web-development/" },
-        { label: "App Development", href: "/app-development/" },
       ],
     },
     {
-      title: "Graphics and Web Design",
+      title: "Mobile App Development & UI/UX Design",
+      text: "Design intuitive user journeys and build reliable web and mobile applications with clean interfaces.",
+      icon: "smartphone",
+      items: ["UI/UX with Intuitive Layouts and User Flows", "Custom, Brand-Focused Designs"],
+      links: [
+        { label: "App Development", href: "/app-development/" },
+        { label: "App Design", href: "/app-design/" },
+      ],
+    },
+    {
+      title: "SEO & Local Search Marketing",
+      text: "Grow organic rankings, local visibility, and qualified traffic through technical SEO, on-page optimization, content, and local search strategies.",
+      icon: "search",
+      items: [
+        "SEO to Get Higher Rank & Organic Traffic",
+        "Local SEO & Google My Business Optimization",
+        "Analytics & Performance Tracking",
+      ],
+      links: [
+        { label: "SEO", href: "/search-engine-optimization/" },
+        { label: "Search Engine Marketing", href: "/search-engine-marketing/" },
+      ],
+    },
+    {
+      title: "Paid Media & Google Ads (PPC)",
+      text: "Launch and optimize targeted PPC and Google Ads campaigns built for measurable ROI and lead generation.",
+      icon: "target",
+      items: ["Google Ads & PPC Campaigns"],
+      links: [{ label: "Google Ads", href: "/google-ads/" }],
+    },
+    {
+      title: "Social Media & Email Marketing",
+      text: "Build brand authority, audience engagement, and repeat customer retention through coordinated social campaigns and targeted email flows.",
+      icon: "share",
+      items: [
+        "Social Media Marketing To Build Brand & Engage Audience",
+        "Email Marketing Campaigns That Drive Engagement, Bookings & Sales",
+      ],
+      links: [
+        { label: "Social Media", href: "/social-media-marketing/" },
+        { label: "Email Marketing", href: "/email-marketing/" },
+      ],
+    },
+    {
+      title: "Branding & Graphic Design",
+      text: "Create cohesive brand identities, logos, social creatives, ad banners, and print/marketing collateral.",
       icon: "palette",
       items: [
-        "UI/UX with Intuitive Layouts and User Flows",
-        "Custom, Brand-Focused Designs",
         "Brand Identity & Logo Design",
         "Social Media Creatives Across All Major Platforms",
         "Ad Banners & Promotional Graphics",
         "Marketing Collateral Design: Flyers, Brochures, Posters & Business Cards",
       ],
       links: [
-        { label: "Web Design", href: "/web-design/" },
-        { label: "Graphic Design", href: "/graphic-design/" },
-        { label: "App Design", href: "/app-design/" },
         { label: "Branding", href: "/branding/" },
+        { label: "Graphic Design", href: "/graphic-design/" },
       ],
     },
     {
-      title: "Digital Marketing Services",
-      icon: "megaphone",
+      title: "IT Consulting, Cloud/Hosting & Project Support",
+      text: "Provide end-to-end technology consulting, API and third-party integrations, domain/hosting/server management, and IT project execution.",
+      icon: "cloud",
       items: [
-        "SEO to Get Higher Rank & Organic Traffic",
-        "Social Media Marketing To Build Brand & Engage Audience",
-        "Analytics & Performance Tracking",
-        "Google Ads & PPC Campaigns",
-        "Local SEO & Google My Business Optimization",
-        "Email Marketing Campaigns That Drive Engagement, Bookings & Sales",
-      ],
-      links: [
-        { label: "SEO", href: "/search-engine-optimization/" },
-        { label: "Search Engine Marketing", href: "/search-engine-marketing/" },
-        { label: "Social Media", href: "/social-media-marketing/" },
-        { label: "Google Ads", href: "/google-ads/" },
-        { label: "Email Marketing", href: "/email-marketing/" },
-      ],
-    },
-    {
-      title: "Project Services & IT Support",
-      icon: "support",
-      items: [
+        "API Integration & Third-Party Services",
         "IT Project Planning & Implementation",
         "Disaster Recovery & Backup Solutions",
         "Software Installation & Configuration",
         "IT Technical Support with Minimal Downtime",
-      ],
-      links: [{ label: "Talk to us", href: "/contact/" }],
-    },
-    {
-      title: "Domain, Hosting & Server Solution",
-      icon: "server",
-      items: [
         "Domain Registration, Renewal & Transfer",
         "Shared & Dedicated Hosting Plans",
         "Cloud Hosting & Management",
@@ -164,7 +227,44 @@ export const services = {
       ],
       links: [{ label: "Talk to us", href: "/contact/" }],
     },
-  ] satisfies ServiceGroup[],
+  ] satisfies Service[],
+};
+
+// Spotlight 1: AI & Human Call Center (copy supplied by GMF).
+export const callCenter = {
+  id: "call-center",
+  eyebrow: "Featured service",
+  title: "AI & Human Call Center Solutions",
+  text: "Deliver 24/7 customer support, inbound/outbound communication, and lead handling powered by intelligent AI voice/chat workflows alongside trained human agents. Seamlessly blend speed, automation, and empathetic human resolution so no inquiry or customer call is missed.",
+  points: [
+    { title: "24/7 Customer Support", text: "Round-the-clock cover so no inquiry or customer call is missed." },
+    { title: "Inbound & Outbound Communication", text: "Incoming queries and outbound calls handled by one team." },
+    { title: "AI Voice & Chat Workflows", text: "Intelligent automation for speed and consistency." },
+    { title: "Trained Human Agents", text: "Empathetic human resolution when a person is needed." },
+    { title: "Lead Handling", text: "Every enquiry captured and passed on without delay." },
+  ],
+  cta: { label: "Talk to us about your call center", href: "/contact/" },
+};
+
+// Spotlight 2: Taxi & Minicab. Intro copy supplied by GMF; the six features are the
+// original "Taxi Dispatching Services" homepage section.
+export const taxi = {
+  id: "taxi-dispatch",
+  eyebrow: "Featured service",
+  title: "Taxi & Minicab Operations, Dispatching & Dashboards",
+  text: "Provide 24/7 live dispatch support, trained call handlers, and real-time booking management across phone, WhatsApp, web, and mobile apps. Integrate directly with dispatch systems and operational dashboards (such as Autocab, iCabbi, and Cordic) with live tracking and scalable dispatch teams.",
+  featuresTitle: "Taxi Dispatching Services",
+  features: [
+    { title: "24/7 Live Dispatch Support", text: "Round the clock booking and dispatching to ensure no ride is ever missed." },
+    { title: "Experienced Call Handlers", text: "Trained agents with excellent communication skills and knowledge of local areas and traffic." },
+    { title: "Real-Time Booking & Tracking", text: "Instant booking confirmations with real-time driver tracking and updates." },
+    { title: "Multi-Channel Booking Support", text: "Accept bookings via phone, WhatsApp, web, and mobile app all managed in one system." },
+    { title: "CRM & Dispatch Software Integration", text: "Seamless integration with your dispatch system (e.g., Autocab, iCabbi, Cordic)." },
+    { title: "Scalable Dispatching Teams", text: "Grow your fleet or customer base: our team scales with your business needs." },
+  ],
+  integrations: ["Autocab", "iCabbi", "Cordic"],
+  channels: ["Phone", "WhatsApp", "Web", "Mobile app"],
+  cta: { label: "Explore Minicabs Solutions", href: "/minicabs-solutions/" },
 };
 
 export const commitments = {
@@ -193,25 +293,11 @@ export const commitments = {
   ],
 };
 
-// The former "Taxi Dispatching Services" section, now the featured industry.
+// Other sector pages (taxi/minicab also has its own spotlight above).
 export const industries = {
   eyebrow: "Industries",
   title: "Industry solutions",
-  featured: {
-    title: "Taxi Dispatching Services",
-    href: "/minicabs-solutions/",
-    linkLabel: "Explore Minicabs Solutions",
-    image: { src: "/images/home/taxi-dispatch.png", width: 848, height: 965 },
-    features: [
-      { title: "24/7 Live Dispatch Support", text: "Round the clock booking and dispatching to ensure no ride is ever missed." },
-      { title: "Experienced Call Handlers", text: "Trained agents with excellent communication skills and knowledge of local areas and traffic." },
-      { title: "Real-Time Booking & Tracking", text: "Instant booking confirmations with real-time driver tracking and updates." },
-      { title: "Multi-Channel Booking Support", text: "Accept bookings via phone, WhatsApp, web, and mobile app all managed in one system." },
-      { title: "CRM & Dispatch Software Integration", text: "Seamless integration with your dispatch system (e.g., Autocab, iCabbi, Cordic)." },
-      { title: "Scalable Dispatching Teams", text: "Grow your fleet or customer base: our team scales with your business needs." },
-    ],
-  },
-  others: [
+  items: [
     {
       title: "Law Firm SEO",
       text: "We help lawyers rank higher, get more calls, and attract quality cases with proven attorney SEO strategies.",

@@ -33,6 +33,9 @@ public/
 
 ## Design and motion
 
+The full design system is in [`docs/DESIGN-SYSTEM.md`](docs/DESIGN-SYSTEM.md).
+
+
 - Animations use [Motion](https://motion.dev) (Framer Motion). `MotionProvider` loads only the DOM feature set through `LazyMotion` and respects the visitor's reduced-motion setting.
 - `components/motion/Reveal.tsx` provides `Reveal` and `Stagger`/`StaggerItem` for scroll-in effects, and `TiltCard.tsx` the 3D tilt and cursor spotlight on cards (mouse only).
 - The 3D objects in the hero (glass cube, orbit rings, orb) are pure CSS 3D transforms that follow the mouse. There is no WebGL or Three.js, so nothing heavy loads.
@@ -58,15 +61,16 @@ These changes were approved on 2026-11-25:
   - "what have to offer" is now "what we have to offer"
   - "UI/UX That Intuitive" is now "UI/UX with Intuitive"
 - **Duplicates removed:** "Software Installation & Configuration" appeared twice. The paragraphs of "Our Marketing Specialities" and "Design and Marketing Impact" were near-identical, so they are now one section that keeps both headings and both images.
-- **Taxi Dispatching Services** is now the featured card in a new "Industry solutions" section. It links to `/minicabs-solutions/`, next to Law Firm SEO, Travel SEO and Dry Cleaning, which were not linked from the homepage before.
+- **Services (brief of 2026-11-25):** 9 services, with GMF's supplied headings and copy. The 28 original service bullet points are regrouped under the matching service, behind a "What's included" toggle. **AI & Human Call Center** and **Taxi & Minicab** are featured cards, and each has its own spotlight section (`#call-center`, `#taxi-dispatch`).
+- **Taxi Dispatching Services:** the original six features now sit inside the Taxi & Minicab spotlight, next to an illustrated dispatch dashboard. Law Firm SEO, Travel SEO and Dry Cleaning form the "Industry solutions" section.
+- **Facts from GMF:** address 312b Eastcote Lane, HA2 9AH, London (footer and Organization JSON-LD). Stat "99%+ Client Satisfaction". Operating since 2019, with 10+ years of team experience.
 - **Testimonials:** repaired scraping damage only. Faiza Khan's review ended at "in the U", now "in the UK.". Qasim Khan's began "LTRULY IMPRESSE!!!!", now "TRULY IMPRESSED!!!!".
 - **Added:** alt text on every image, a "Latest from the blog" section (3 existing posts) and Organization JSON-LD.
 - **SEO values copied exactly:** title, meta description, canonical, robots, OG tags and `article:modified_time`.
 
 ## Open items for the owner
 
-- "since 2019" and "over 10 years of experience" contradict each other. Which is right?
-- The stat "99+ Client Satisfaction" might be meant as 99%.
+- The call center has no page on the current site, so links point to `#call-center` and `/contact/`. Should it get its own URL? That would be a new page.
 - "More about our services" pointed to `#`. It now goes to `/about/`.
 - `og:locale` and `inLanguage` stay `en_US`, as on WordPress. Change them to `en_GB` if you want.
 - Cookie consent (Complianz) isn't rebuilt yet. Add it before any analytics or marketing scripts.

@@ -12,6 +12,13 @@ export const site = {
     whatsapp: "https://wa.me/+442071831099",
   },
   email: "info@globalmarketingfirm.co.uk",
+  address: {
+    street: "312b Eastcote Lane",
+    locality: "London",
+    postcode: "HA2 9AH",
+    country: "GB",
+    display: "312b Eastcote Lane, HA2 9AH, London",
+  },
   bookingPath: "/booking/",
   social: [
     { label: "Facebook", href: "https://www.facebook.com/Globalmarketingfirm.co.uk/" },

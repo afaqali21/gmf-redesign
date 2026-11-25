@@ -3,7 +3,7 @@ import { cacheLife } from "next/cache";
 import Link from "next/link";
 import { footerNav, legalNav, site } from "@/content/site";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
-import { MailIcon, PhoneIcon, SocialIcon, WhatsAppIcon } from "@/components/ui/Icons";
+import { MailIcon, MapPinIcon, PhoneIcon, SocialIcon, WhatsAppIcon } from "@/components/ui/Icons";
 
 const company = [
   { label: "About", href: "/about/" },
@@ -85,6 +85,10 @@ export function Footer() {
               <Image src="/images/brand/gmf-logo.png" alt={site.name} width={400} height={98} className="h-8 w-auto" />
             </Link>
             <p className="mt-7 max-w-sm text-sm leading-relaxed">{site.blurb}</p>
+            <address className="mt-5 flex items-start gap-2.5 text-sm not-italic leading-relaxed text-white/70">
+              <MapPinIcon className="mt-0.5 size-4 shrink-0 text-brand-400" />
+              {site.address.display}
+            </address>
 
             <h3 id="follow-us" className="mt-9 text-xs font-semibold uppercase tracking-[0.2em] text-white">
               Follow us

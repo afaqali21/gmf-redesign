@@ -8,6 +8,8 @@ import { Trusted } from "@/components/sections/Trusted";
 import { Services } from "@/components/sections/Services";
 import { Commitments } from "@/components/sections/Commitments";
 import { Industries } from "@/components/sections/Industries";
+import { CallCenter } from "@/components/sections/CallCenter";
+import { TaxiDispatch } from "@/components/sections/TaxiDispatch";
 import { Process } from "@/components/sections/Process";
 import { Competitive } from "@/components/sections/Competitive";
 import { Specialities } from "@/components/sections/Specialities";
@@ -75,7 +77,13 @@ const schema = {
       logo: absoluteUrl("/images/brand/gmf-logo.png"),
       email: site.email,
       telephone: "+44 20 7183 1099",
-      address: { "@type": "PostalAddress", addressCountry: "GB" },
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: site.address.street,
+        addressLocality: site.address.locality,
+        postalCode: site.address.postcode,
+        addressCountry: site.address.country,
+      },
       sameAs: site.social.map((s) => s.href),
     },
   ],
@@ -90,8 +98,10 @@ export default function HomePage() {
       <ClientLogos />
       <Trusted />
       <Services />
-      <Commitments />
+      <CallCenter />
+      <TaxiDispatch />
       <Industries />
+      <Commitments />
       <Process />
       <Competitive />
       <Specialities />

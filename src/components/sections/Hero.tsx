@@ -5,7 +5,7 @@ import { Fragment, type PointerEvent } from "react";
 import { hero } from "@/content/home";
 import { site } from "@/content/site";
 import { ButtonLink } from "@/components/ui/Button";
-import { ArrowRightIcon, CodeIcon, MegaphoneIcon, PhoneIcon, SupportIcon } from "@/components/ui/Icons";
+import { ArrowRightIcon, CodeIcon, MegaphoneIcon, PhoneIcon, SupportIcon, TaxiIcon } from "@/components/ui/Icons";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 const pillarIcons = [CodeIcon, SupportIcon, MegaphoneIcon];
@@ -115,11 +115,41 @@ export function Hero() {
             </ButtonLink>
           </m.div>
 
+          {/* Spotlight shortcuts to the two featured services */}
+          <m.ul
+            data-reveal initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 1, ease: EASE }}
+            className="mt-8 flex flex-col gap-2.5 sm:flex-row"
+            aria-label="Featured services"
+          >
+            {hero.featured.map((f, i) => {
+              const Icon = i === 0 ? SupportIcon : TaxiIcon;
+              return (
+                <li key={f.href}>
+                  <a
+                    href={f.href}
+                    className="group inline-flex w-full items-center gap-3 rounded-2xl bg-white/[0.04] py-2 pl-2 pr-4 text-sm font-medium text-white/85 ring-1 ring-inset ring-white/10 backdrop-blur-md transition-all duration-300 hover:bg-white/[0.08] hover:text-white hover:ring-brand-500/40"
+                  >
+                    <span className="flex size-9 items-center justify-center rounded-xl bg-gradient-to-br from-brand-500/80 to-brand-800/80 text-white">
+                      <Icon className="size-4" />
+                    </span>
+                    <span className="flex-1">
+                      <span className="block text-[0.65rem] font-semibold uppercase tracking-[0.16em] text-brand-300">Featured</span>
+                      {f.label}
+                    </span>
+                    <ArrowRightIcon className="size-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  </a>
+                </li>
+              );
+            })}
+          </m.ul>
+
           <m.p
             data-reveal initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1.1 }}
-            className="mt-12 flex max-w-xl gap-4 text-sm leading-relaxed text-white/55"
+            className="mt-10 flex max-w-xl gap-4 text-sm leading-relaxed text-white/55"
           >
             <span aria-hidden="true" className="mt-1 h-10 w-px shrink-0 bg-gradient-to-b from-brand-500 to-transparent" />
             {hero.note}
