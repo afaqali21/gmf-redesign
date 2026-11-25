@@ -1,0 +1,163 @@
+{
+ "path": "/web-development/",
+ "seo": {
+  "title": "Best Web Development in UK Done Right & Affordable",
+  "description": "Web & App Development Services. We will design your digital future! We build custom websites & mobile apps.",
+  "canonical": "/web-development/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:44:25+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/web-development/",
+    "url": "https://globalmarketingfirm.co.uk/web-development/",
+    "name": "Best Web Development in UK Done Right & Affordable",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2022-02-03T14:20:43+00:00",
+    "dateModified": "2024-08-05T08:44:25+00:00",
+    "description": "Web & App Development Services. We will design your digital future! We build custom websites & mobile apps.",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/web-development/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/web-development/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/web-development/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Web Development"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Web Development"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/web-development.jpg",
+   "alt": "Web Development service in London"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Web Development"
+  },
+  {
+   "t": "p",
+   "html": "Here at Global Marketing Firm we believe one size does not fit all. Using a website builder such as Wix or GoDaddy will have several limitations that will restrict the growth of your brand and website. Drag and designs can limit your creativity and your final product will never be how you imagined it. Trying to get your dream website using a website builder can also be very time consuming and frustrating."
+  },
+  {
+   "t": "p",
+   "html": "However, Custom-built sites have several advantages and allow you to create a website you’re proud of."
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Custom-Built Sites Are Tailored Exactly To Your Business Needs"
+  },
+  {
+   "t": "p",
+   "html": "They provide flexibility to adapt to ever-changing digital requirements and keep your business moving forward with digital trends. Adding a new product line soon? Want to revamp your website? Whatever your need is, Our developers can handle it!"
+  },
+  {
+   "t": "cta",
+   "label": "Call Us",
+   "href": "tel:02071831099"
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/02/web-development-1-800x406.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "SEO Friendly"
+  },
+  {
+   "t": "p",
+   "html": "When our developers create your website from scratch they build it with optimisation in mind. Planning ahead to include SEO best practices in the beginning stages of your web design, including a clear site hierarchy and easy-to-crawl pages, will save you time down the road. Equally, the better your site performance is, the higher search engines will rank it."
+  },
+  {
+   "t": "cta",
+   "label": "Instant Quote",
+   "href": "/booking/"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/web-development-2.jpg",
+   "alt": "Web Development & Seo in london"
+  },
+  {
+   "t": "h",
+   "level": 2,
+   "text": "Stand Out From"
+  },
+  {
+   "t": "h",
+   "level": 2,
+   "text": "Your Competitors"
+  },
+  {
+   "t": "p",
+   "html": "&nbsp;Did you know 94% of first impressions relate to your site’s web design? Your competitors are probably using simple website themes so make sure your website is the benchmark for your industry. So when a potential customer visits your website they will stop looking elsewhere."
+  },
+  {
+   "t": "h",
+   "level": 2,
+   "text": "Our Work"
+  },
+  {
+   "t": "p",
+   "html": "Our experienced web development team has worked with clients from different industries, ranging from start ups to established businesses.<br> We have always provided them a bespoke custom built website that cannot be made using a simple website builder.<br> We are proud to say our work has always exceeded our clients expectations."
+  }
+ ]
+}

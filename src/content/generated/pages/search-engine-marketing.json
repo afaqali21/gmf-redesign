@@ -1,0 +1,178 @@
+{
+ "path": "/search-engine-marketing/",
+ "seo": {
+  "title": "Best & Top Search Engine Marketing Company l SEM",
+  "description": "London's trusted & affordable Search Engine Marketing! Skyrocket rankings & attract customers with our expert search engine marketing.",
+  "canonical": "/search-engine-marketing/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:26:23+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/search-engine-marketing/",
+    "url": "https://globalmarketingfirm.co.uk/search-engine-marketing/",
+    "name": "Best & Top Search Engine Marketing Company l SEM",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2018-09-05T13:21:17+00:00",
+    "dateModified": "2024-08-05T08:26:23+00:00",
+    "description": "London's trusted & affordable Search Engine Marketing! Skyrocket rankings & attract customers with our expert search engine marketing.",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/search-engine-marketing/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/search-engine-marketing/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/search-engine-marketing/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Search Engine Marketing"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Search Engine Marketing"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/search-engine-marketing.jpg",
+   "alt": "Search Engine Marketing in UK"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "What is search engine marketing?"
+  },
+  {
+   "t": "p",
+   "html": "A search engine is your gateway to access all of the information that’s available on the internet. The reason why Google rolls out algorithms and updates is to make sure that when you search for something, you receive the right information from an authentic source. Therefore, the role of a search engine is to sift through mountains of data and find out the relevant websites that best serve your queries. Search engine marketing(SEM) ensures you reach the top of that list of queries and remain there for the foreseeable future."
+  },
+  {
+   "t": "p",
+   "html": "SEM is a paid digital marketing strategy that increases the visibility of your website in SERPs(search engine result pages). It is also referred to as pay per click(PPC) or paid search."
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "How essential is search engine marketing to marketing?"
+  },
+  {
+   "t": "p",
+   "html": "Search engine marketing plays a crucial role in increasing a company’s reach on the internet. It has become an essential element in online marketing strategy. Moreover, the ever-increasing number of people searching for services and online products has dramatically increased over the years, making SEM indispensable, especially if you want to compete with the top companies within your industry."
+  },
+  {
+   "t": "p",
+   "html": "With the help of complex algorithms search engines are able to show the most relevant results whenever someone is looking for something. However, those results are organic, which means the ranking can change based on how well you optimize the website and its content from time to time. However, in SEM, you bid for keywords that users might be searching for in Google or Bing. Now when someone searches for that specific keyword, your paid ads will appear in prominent locations within the SERPs and will be fairly distinguishable from organic results."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/marketing-tomarketing.png",
+   "alt": "Search engine Marketing Services In london"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "4 WAYS SEARCH ENGINE MARKETING CAN IMPACT YOUR BUSINESS"
+  },
+  {
+   "t": "p",
+   "html": "The impact of search engine marketing are as follows:"
+  },
+  {
+   "t": "p",
+   "html": "You can reach clients instantly which gives you better control of your ad distribution channels.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Access to analytics allows you to check the results of our campaigns to figure out which aspects of your business are more in demand.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Geo-targeting gives you better control over where you show your ads.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "It’s easily measurable so you can check the return of your investments easily.",
+   "step": true
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2018/10/attachment-04.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "WHAT DO WE DO?"
+  },
+  {
+   "t": "p",
+   "html": "As a global marketing firm are aware of the impact of a successful search engine marketing campaign. We will boost the visibility of your website in SERPs, using both paid and unpaid(organic) methods. Contact us today for a free consultation on how you can rank higher in SERPs."
+  },
+  {
+   "t": "cta",
+   "label": "Call Us",
+   "href": "tel:02071831099"
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2018/11/background-800x406.jpg",
+   "alt": ""
+  }
+ ]
+}

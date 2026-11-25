@@ -1,0 +1,203 @@
+{
+ "path": "/about/",
+ "seo": {
+  "title": "UK's Top SEO, Design, Development Company | Global Marketing Firm",
+  "description": "Meet the team at Global Marketing Firm: Best SEO, digital marketing, design, & development company in London, UK, providing worldwide services to grow your business",
+  "canonical": "/about/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:18:49+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/about/",
+    "url": "https://globalmarketingfirm.co.uk/about/",
+    "name": "UK's Top SEO, Design, Development Company | Global Marketing Firm",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2018-09-24T09:36:56+00:00",
+    "dateModified": "2024-08-05T08:18:49+00:00",
+    "description": "Meet the team at Global Marketing Firm: Best SEO, digital marketing, design, & development company in London, UK, providing worldwide services to grow your business",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/about/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/about/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/about/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "About"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "ABOUT"
+  },
+  {
+   "t": "h",
+   "level": 2,
+   "text": "Who are we"
+  },
+  {
+   "t": "p",
+   "html": "<strong>We are a marketing and web development team that is based<br> within the U.K offering a wealth of services that will<br> help your business grow online.</strong>"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "We create products that make people happy."
+  },
+  {
+   "t": "p",
+   "html": "Our team has over 10 years of experience working with businesses in different sectors such as, transport, hospitality, property maintenance I.T and even charity organisations. Whether it has been an established business we have worked with or a start up, we have always got them results."
+  },
+  {
+   "t": "p",
+   "html": "Allow us to digitally grow your business effectively and provide a return on investment (ROI) from day one. We’re a full-service digital marketing agency to find, implement and optimise online marketing campaigns. We use means such as <b>social media</b>, <b>search engine optimization </b>and <b>pay-per-click advertising</b> to get you the highest ranking, get you tons of traffic and maximise your Return On Investment (ROI)."
+  },
+  {
+   "t": "cta",
+   "label": "Contact Us",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 2,
+   "text": "Our Services"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Search Engine Marketing"
+  },
+  {
+   "t": "p",
+   "html": "A search engine is your gateway to access all of the information that’s available"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Graphic Design"
+  },
+  {
+   "t": "p",
+   "html": "Graphics design is the art of communicating ideas and thoughts in a visual manner."
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Social Media Marketing"
+  },
+  {
+   "t": "p",
+   "html": "The significance of social media can no longer be refuted when it comes to marketing."
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Google Ads"
+  },
+  {
+   "t": "p",
+   "html": "According to 74% of brands, PPC(pay-per-click) is a major driver for their business."
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Email Marketing"
+  },
+  {
+   "t": "p",
+   "html": "Email marketing allows you to form a deep connection with your audience."
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Branding"
+  },
+  {
+   "t": "p",
+   "html": "Branding is what differentiates you from the hundreds of other companies out there."
+  },
+  {
+   "t": "h",
+   "level": 2,
+   "text": "About Us"
+  },
+  {
+   "t": "p",
+   "html": "Here at <b>Global Marketing Firm </b>we believe an online website builder is not always practical for your business.<br> Our experienced web developers combined with a dedicated account manager help create bespoke<br> custom built websites that truly meet your requirements. Our web development<br> service does not end when your website has been made. We carefully create<br> unique content for your web pages, blogs and SEO optimised landing pages."
+  },
+  {
+   "t": "h",
+   "level": 2,
+   "text": "OUR CLIENTS"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/minicabs.png",
+   "alt": "",
+   "link": "https://minicabs.co.uk/"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/reloit.png",
+   "alt": "",
+   "link": "https://reloitltd.com/"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/mcl.png",
+   "alt": "",
+   "link": "https://minicabforlondon.com/"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/ducane.png",
+   "alt": "",
+   "link": "https://www.ducanedrycleaners.uk/"
+  }
+ ]
+}

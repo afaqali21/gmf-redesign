@@ -1,0 +1,182 @@
+{
+ "path": "/google-ads/",
+ "seo": {
+  "title": "Boost Sales and Optimize Campaigns with Google Ads Manager",
+  "description": "Partner with the best Google Ads agency in the UK. Our expert Google Ads Manager services maximize your ROI and drive results for your business. Get started today",
+  "canonical": "/google-ads/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:34:34+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/google-ads/",
+    "url": "https://globalmarketingfirm.co.uk/google-ads/",
+    "name": "Boost Sales and Optimize Campaigns with Google Ads Manager",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2021-11-01T15:49:18+00:00",
+    "dateModified": "2024-08-05T08:34:34+00:00",
+    "description": "Partner with the best Google Ads agency in the UK. Our expert Google Ads Manager services maximize your ROI and drive results for your business. Get started today",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/google-ads/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/google-ads/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/google-ads/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Google Ads"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Google Ads"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/google-ads.jpg",
+   "alt": "Google Ads Services in Uk"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "What is Google Ads PPC and why is it important?"
+  },
+  {
+   "t": "p",
+   "html": "According to 74% of brands, PPC(pay-per-click) is a major driver for their business. It gets them quick results in a relatively short period of time and millions of companies use PPC to boost their sales. So without further ado, let’s take an in-depth look at what Google Ads PPC is and how it operates."
+  },
+  {
+   "t": "p",
+   "html": "PPC is a form of internet marketing where advertisers bid for keywords or ‘search phrases’ on the internet. When someone clicks on the ad, the advertisers are charged a small fee as determined by the PPC advertising system. Google Ads PPC is one such tool that is powerful, cost-effective and can help you raise your brand awareness, boost sales, and improve conversions."
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "How essential is Google Ads PPC to marketing?"
+  },
+  {
+   "t": "p",
+   "html": "Advertisers use Google’s PPC advertising platform to bid for preferred keywords. However, Google picks the ads it wants to display based on various factors such as Quality Score and CPC Bid."
+  },
+  {
+   "t": "p",
+   "html": "So, every time someone initiates a search, Google picks the most ad copies from its collection and shows them on the SERPs. So without a properly written ad copy, your ad might not get picked in the first place."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/google-ads-1.jpg",
+   "alt": "Google Ads Services in London"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "4 ways Google Ads PPC can impact your sales and business"
+  },
+  {
+   "t": "p",
+   "html": "Although PPC keyword research is time-consuming, it is extremely important. Some of the most successful advertisers<br> of all time refine their PPC keyword list for the continuous growth and optimization of their business. The keyword list<br> should be relevant, exhaustive, and expansive because creating the campaign is only the first part. You have to<br> maintain it on a regular basis to ensure all your keywords listings remain relevant or replace them if necessary."
+  },
+  {
+   "t": "p",
+   "html": "Here are four ways how effectively optimizing your PPC campaigns can work wonders for your organization, such as:"
+  },
+  {
+   "t": "p",
+   "html": "Increase your conversion rating by focusing on your target customers.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Optimize marketing costs thanks to regular monitoring of underperforming keywords.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "You can easily measure the return on your investment and adjust the cost accordingly.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Build better and more consistent brand recognition.",
+   "step": true
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2018/10/attachment-04.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "WHAT DO WE DO?"
+  },
+  {
+   "t": "p",
+   "html": "As a global marketing firm, we are well aware of the potential of Google Ads alongside its common pitfalls. Google Ads can get very expensive but we make sure to optimize that cost and make every dollar count. Contact us today for a free consultation and take the first step towards building a more successful and better-performing ad campaign."
+  },
+  {
+   "t": "cta",
+   "label": "Call Us",
+   "href": "tel:02071831099"
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/01/google-ads-background-800x406.jpg",
+   "alt": ""
+  }
+ ]
+}

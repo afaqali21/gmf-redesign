@@ -1,0 +1,178 @@
+{
+ "path": "/graphic-design/",
+ "seo": {
+  "title": "The Best, Affordable Branding & Graphic Designer Services",
+  "description": "The Top & Affordable Graphic Design Agency in London, UK that will Increase your Brand Recognition & Engagement!",
+  "canonical": "/graphic-design/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:46:09+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/graphic-design/",
+    "url": "https://globalmarketingfirm.co.uk/graphic-design/",
+    "name": "The Best, Affordable Branding & Graphic Designer Services",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2021-11-01T15:48:42+00:00",
+    "dateModified": "2024-08-05T08:46:09+00:00",
+    "description": "The Top & Affordable Graphic Design Agency in London, UK that will Increase your Brand Recognition & Engagement!",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/graphic-design/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/graphic-design/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/graphic-design/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Graphic Design"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Graphic Design"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/graphic-design-1.jpg",
+   "alt": "Graphic Design in london"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "What is Graphics Design?"
+  },
+  {
+   "t": "p",
+   "html": "Graphics design is the art of communicating ideas and thoughts in a visual manner. It’s not something new as graphics design has existed forever. Previously, it was in the form of magazines and pamphlets. Now it has evolved into Tiktok videos, Instagram reels, and Youtube shorts."
+  },
+  {
+   "t": "p",
+   "html": "It’s only been a few years since graphics design entered the world of digital marketing and created all sorts of beautiful ad copies that people crave. Let’s discuss the importance of graphics design in detail and how it can help your business grow and flourish."
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "How essential is Graphics Design to marketing?"
+  },
+  {
+   "t": "p",
+   "html": "Businesses these days are concentrating more on graphics rather than catchphrases. The reason being visual elements attracts more attention, clicks, likes, shares, and any other measurable metric you can find. The world is filled with ads that are trying to grab the attention of potential consumers and the ones that are successful are truly unique."
+  },
+  {
+   "t": "p",
+   "html": "Graphics design helps you build your own unique brand. It lets you convey messages the way you want them. Truly distinguishable graphics help you build credibility and indicate professionalism within your creations. You have to understand that people are slowly getting accustomed to flashy eye-grabbing images on the internet. To catch their attention, you will have to build your own identity or at least imitate others who are successful in the craft."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/graphic-design-2.jpg",
+   "alt": "Graphic Design in london"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "4 Graphics design impact on your sales/business"
+  },
+  {
+   "t": "p",
+   "html": "Truly impactful graphics design benefits your business in numerous ways such as:"
+  },
+  {
+   "t": "p",
+   "html": "You don’t get a second chance to make a first impression. A beautifully crafted design leaves your audience flabbergasted and curious for more, compelling customers to take an interest in your brand.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "It speaks of professionalism. Which service would you rather choose? A beautiful image that showcases the product in detail or a washed down badly photoshopped image item that’s hardly visible.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Good graphics are the best way to harness trust among you and your customers.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "All of the above factors combined, if the customers trust you, you’ll notice a higher number of conversions soon after implementing such intriguing designs.",
+   "step": true
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2018/10/attachment-04.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "WHAT DO WE DO?"
+  },
+  {
+   "t": "p",
+   "html": "We offer expertise in various forms of graphic design ranging from email templates to social media posts, brochures, banners, websites, and apps. Being a global firm we understand the impact good graphics can have on a particular business. Contact us today for a free consultation and transform your caterpillar of a brand into a fabulously colourful butterfly."
+  },
+  {
+   "t": "cta",
+   "label": "Call Us",
+   "href": "tel:02071831099"
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/01/graphic-design-background-800x406.jpg",
+   "alt": ""
+  }
+ ]
+}

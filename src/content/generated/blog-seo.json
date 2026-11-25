@@ -1,0 +1,124 @@
+{
+ "blog": {
+  "title": "Digital Marketing & Technology Blog - Global Marketing Firm",
+  "description": "Stay ahead of your online competition with our digital marketing blog and latest technology articles. Master the tips and tricks for SEO, PPC, Web design, and more.",
+  "canonical": "/blog/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": null,
+  "twitter": {},
+  "schema": [
+   {
+    "@type": [
+     "WebPage",
+     "CollectionPage"
+    ],
+    "@id": "https://globalmarketingfirm.co.uk/blog/",
+    "url": "https://globalmarketingfirm.co.uk/blog/",
+    "name": "Digital Marketing & Technology Blog - Global Marketing Firm",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2024-05-30T12:58:49+00:00",
+    "dateModified": "2024-08-05T08:24:41+00:00",
+    "description": "Stay ahead of your online competition with our digital marketing blog and latest technology articles. Master the tips and tricks for SEO, PPC, Web design, and more.",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/blog/#breadcrumb"
+    },
+    "inLanguage": "en-US"
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/blog/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "blog"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blogPage2": {
+  "title": "Digital Marketing & Technology Blog - Global Marketing Firm",
+  "description": "Stay ahead of your online competition with our digital marketing blog and latest technology articles. Master the tips and tricks for SEO, PPC, Web design, and more.",
+  "canonical": "/blog/page/2/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": null,
+  "twitter": {},
+  "schema": [
+   {
+    "@type": [
+     "WebPage",
+     "CollectionPage"
+    ],
+    "@id": "https://globalmarketingfirm.co.uk/blog/",
+    "url": "https://globalmarketingfirm.co.uk/blog/page/2/",
+    "name": "Digital Marketing & Technology Blog - Global Marketing Firm",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2024-05-30T12:58:49+00:00",
+    "dateModified": "2024-08-05T08:24:41+00:00",
+    "description": "Stay ahead of your online competition with our digital marketing blog and latest technology articles. Master the tips and tricks for SEO, PPC, Web design, and more.",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/blog/page/2/#breadcrumb"
+    },
+    "inLanguage": "en-US"
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/blog/page/2/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "blog"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ }
+}

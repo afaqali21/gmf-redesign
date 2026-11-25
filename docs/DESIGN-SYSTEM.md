@@ -58,3 +58,42 @@ Sections alternate dark → light → surface, which gives the page a steady rhy
   - Every image needs alt text that describes what it shows.
 - All images use `next/image`, which serves AVIF or WebP (set in `next.config.ts`) with `sizes` set to match the layout.
 - The existing homepage photos are kept for now: the competitive section image and the two "impact" images. They're the first candidates to replace once new photography is available.
+
+## Inner-page components (phase 2)
+
+- **`PageHero`** (`components/page`): dark hero matching the homepage. It has a breadcrumb, a word-by-word animated H1 (the last word in the brand gradient), optional eyebrow, intro and CTAs, and a right-hand visual that tilts in 3D with the mouse. It also has the same blobs, cursor spotlight and perspective grid floor as the homepage hero.
+- **`Visual`** (`components/page/Visuals.tsx`): hero illustrations built in code, one per service family (search, SEO, social, email, ads, brand, app, web, design, law, travel, minicab, laundry, about, portfolio, quote, contact). They're glass panels with floating chips, labelled with `role="img"` and an `aria-label`. Chips use qualitative labels only, never invented metrics.
+- **`RevealImage`**: a clip-path wipe as the image enters the viewport, then a ±5% parallax drift. Every image goes through `next/image` (AVIF/WebP), with sizes from `content/generated/image-sizes.json`.
+- **`SectionViews`** (`components/templates`): the section layouts every template shares:
+  - `SplitSection`: text and image, alternating sides
+  - `CardsSection`: numbered tilt cards, dark or light
+  - `BandSection`: mid-page CTA over the original parallax photo
+  - `StatementSection`
+  - `ClosingSection`: a `FinalCta` that keeps the page's own heading, text and buttons
+  - `Bullets`
+  - `IconPanel`: an illustrated stand-in for a missing photo
+
+  Headings keep the level WordPress used (`H`).
+- **Section numbering:** small `01 ——` markers give long pages a sense of progress without adding copy.
+- **Blog:** `PostCard` (16:9 cover, category chips, date, reading time), `FeaturedPost` (lead story), `CategoryNav` chips, `Pagination`, `Toc` (scroll-spy, sticky on desktop, collapsible on mobile) and `ReadingProgress`.
+- **Long-form typography:** the `prose-gmf` utility in `globals.css` covers a ~70ch measure, 1.8 leading, brand bullets, tables, blockquotes and FAQ `<details>`. `prose-doc` adds section rules for policies.
+- **Forms:** floating-label inputs, chip-style checkboxes, inline errors linked with `aria-describedby`, and a live status region that takes focus after each submit.
+
+### Page rhythm
+
+Each template alternates white, `surface` and `ink-950`, as the homepage does, but the order differs per page so pages don't feel identical:
+
+- Services: split → split → dark cards → band or closing.
+- Industry pages: they also add a process track, checklist grids and an FAQ.
+- Case studies: a chapter index with a sticky sidebar.
+- About: a story split, dark service cards, a statement, then client logos.
+
+### Service-page photography (added 2026-11-25)
+
+The 11 service pages, Law Firm SEO and Travel SEO each have two new photos. There are 26 photos in all, and no page reuses another page's photo. Each was chosen to show the service itself: search and analytics screens, social feeds, email workflows, code, wireframes, design tools, legal and travel scenes.
+
+- **Source and licence:** [Unsplash](https://unsplash.com/license), free for commercial use with no attribution required. Every photo was downloaded through Unsplash's official download link, which refuses paid Unsplash+ images, so all of them are free-licensed. Photos showing third-party brand names (other companies' business cards, airline logos) were rejected.
+- **Files:** `public/images/services/<slug>-1.webp` and `-2.webp`, 1600×1200 WebP between 18 and 226 KB. `next/image` then serves AVIF/WebP at the right size for each device.
+- **Credits:** IDs, photographers and source URLs are in `src/content/service-photos.json`. `scripts/fetch-service-photos.mjs` downloads them again or swaps a photo: edit the ID and rerun.
+- **Wiring:** `getBlockPage()` swaps the migrated images in order, and the decorative band backgrounds use the page's own photo. Alt text describes the photo and keeps the original WordPress alt phrase, for example "Google search page on a laptop screen – Search Engine Marketing in UK".
+- Heroes keep their code-built 3D illustrations, so each page pairs one illustrated hero with two photos.

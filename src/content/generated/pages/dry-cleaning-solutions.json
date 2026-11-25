@@ -1,0 +1,166 @@
+{
+ "path": "/dry-cleaning-solutions/",
+ "seo": {
+  "title": "Dry Cleaning Solutions - Global Marketing Firm",
+  "description": null,
+  "canonical": "/dry-cleaning-solutions/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2022-02-21T10:42:14+00:00",
+  "twitter": {},
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/dry-cleaning-solutions/",
+    "url": "https://globalmarketingfirm.co.uk/dry-cleaning-solutions/",
+    "name": "Dry Cleaning Solutions - Global Marketing Firm",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2022-02-07T12:32:25+00:00",
+    "dateModified": "2022-02-21T10:42:14+00:00",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/dry-cleaning-solutions/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/dry-cleaning-solutions/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/dry-cleaning-solutions/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Dry Cleaning Solutions"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/02/ducane-header.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Dry Cleaning Solutions"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Marketing Agency And Web Development Specialising In Dry Cleaners"
+  },
+  {
+   "t": "p",
+   "html": "For over many years our marketing firm has had several clients within the dry cleaning industry for whom we have provided a complete digital solution. Our project started with Web Development but we did not stop there. We offered our experience and help to grow a local dry cleaners nationally through carefully crafted SEO optimised website content and a regular social media posting schedule"
+  },
+  {
+   "t": "p",
+   "html": "Our graphic designers have been able to create vibrant images that our clients have been able to use for social media, marketing material and also at launch events. The work we have done has allowed the business to expand into other areas of London and open three further branches!"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/ducane-800x600.png",
+   "alt": "Web development for Dry cleaners"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Web Development & Booking Form"
+  },
+  {
+   "t": "p",
+   "html": "When our firm took on projects for Ducane Dry Cleaners we went through detailed analysis and research into the dry cleaning industry including what our client’s competitors were doing. What we found was small to medium businesses were only using basic websites that do not come across very professional. We also found that very small businesses had no online presence at all. Our firm had the vision to offer a service and online presence similar to high end laundry services apps such as i hate ironing and that is what we have been proud to deliver."
+  },
+  {
+   "t": "p",
+   "html": "The end result was a bespoke website complete with all service pages that were tailor made by our in-house content team. The homepage was like no other catching the attention of the end user with key unique selling points. When we took over the project we were amazed to find our client had no way of accepting orders, contact requests or leads through their website."
+  },
+  {
+   "t": "p",
+   "html": "Our team explained that this is a must and all serious competitors are already offering this service to your potential customers. This led to us introducing a booking form the first aspect on the homepage to drive in sales. Our client has been amazed with how many online booking requests they now get and how much workload is saved from its team members. Due to its effectiveness we have updated this form on numerous occasions as per our customer needs"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/mobile-1.png",
+   "alt": "Responsive design for dry cleaners"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Organic SEO"
+  },
+  {
+   "t": "p",
+   "html": "With our help Duane Dry Cleaners has grown all over London through our expert organise SEO methods. This involves our in house team crafting new and unique SEO optimised for their website targeting local areas and their services. Prior to creating any content our team carried out extensive research for topics and hot keywords. Then our designers make sure the webpage is polished giving our clients something they can be proud of."
+  },
+  {
+   "t": "p",
+   "html": "Comparing this with Paid SEO we have saved our client thousands of pounds by getting better results and helping them reduce their marketing spend. To expedite the results we set up a regular engaging blog for our client which also includes carefully selected keywords."
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/02/Organic-SEO-1-800x600.jpg",
+   "alt": ""
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/Paid-SEO-1.jpg",
+   "alt": "Seo for dry cleaners"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Paid SEO"
+  },
+  {
+   "t": "p",
+   "html": "Our Google Ad words and Facebook specialists have set up carefully created campaigns that target specific bespoke services our clients specialise in. We work with our clients to understand their budget and what their goal is from running paid ads. This could be to get more calls to the business, more online sales or visit to the business itself"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Social Media"
+  },
+  {
+   "t": "p",
+   "html": "The team at Ducane Dry Cleaners were so relieved when we took responsibility for all their social media channels. They no longer had to figure out what to post and how often to post. What they get now is a detailed social media posting schedule created by us that our team members follow. Our in house graphic designers create catchy and vibrant pictures that you will be proud of. Before we carry out any work on a client’s social media platforms we ensure the profile is set up correctly and looks professional. What our client really appreciates is we always get their input and keep them in the loop. So when it is promotional season, we coordinate with our client to post an offer or a giveaway."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/social-media-2.jpg",
+   "alt": "Social media Handlers"
+  }
+ ]
+}

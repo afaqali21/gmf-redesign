@@ -1,0 +1,216 @@
+{
+ "slug": "ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored",
+ "path": "/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/",
+ "title": "AI Overviews Are Eating Your Clicks: How UK Small Businesses Can Get Cited by Google Gemini 3 Instead of Ignored",
+ "date": "2026-07-13T12:54:51+00:00",
+ "modified": "2026-07-13T13:08:56+00:00",
+ "categories": [
+  {
+   "name": "AI",
+   "slug": "ai"
+  }
+ ],
+ "tags": [
+  {
+   "name": "Digital Marketing Solutions",
+   "slug": "digital-marketing-solutions"
+  },
+  {
+   "name": "search engine optimisation",
+   "slug": "search-engine-optimisation"
+  },
+  {
+   "name": "web development",
+   "slug": "web-development"
+  }
+ ],
+ "thumbnail": {
+  "src": "/wp-content/uploads/2026/07/qxfmL1mmMDC-1792x960.webp",
+  "alt": ""
+ },
+ "excerpt": null,
+ "toc": [],
+ "tocTitle": null,
+ "html": "<p>For the average UK small business owner, the digital landscape shifted overnight. If you have noticed a sudden, unexplained drop in organic traffic despite your rankings remaining stable, you aren’t alone. The culprit is not a penalty; it is the evolution of search. Google Gemini 3 and its integrated AI Overviews (AIOs) are now providing direct answers at the top of the search engine results page (SERP), effectively “eating” the clicks that used to sustain local businesses.</p>\n<p>Recent data indicates that queries featuring an AI Overview experience a 20% to 40% reduction in organic click-through rates (CTR). Even more concerning? A staggering 97 out of 100 UK small businesses are currently invisible to AI models, meaning their content is never cited as a source.</p>\n<p>However, this transition is not a death sentence for your digital presence. It is an invitation to adapt. While general traffic may be down, the quality of “AI-referred” traffic is skyrocketing: visitors who click through from an AI citation have been found to convert 23x higher than traditional searchers. At Global Marketing Firm, we believe that visibility in 2026 is no longer about just being on “Page 1”; it is about becoming the authoritative source that Gemini quotes.</p>\n<h2 id=\"empowering-visibility-in-the-age-of-ai\">EMPOWERING VISIBILITY IN THE AGE OF AI</h2>\n<p>Traditional SEO strategies that focused solely on keyword density and backlink volume are becoming secondary to a new discipline: generative engine optimisation(GEO). To remain relevant, your business must transition from providing “content” to providing “answers”.</p>\n<p>When a potential client in London or Manchester asks, “Who is the most reliable digital marketing agency in the UK?” or “How do I scale my IT infrastructure?”, Gemini 3 doesn’t just list websites; it synthesises a response. If your brand isn’t part of that synthesis, you don’t exist in the eyes of that customer.</p>\n<p>To understand how this shift impacts your specific growth trajectory, explore our deep dive on <a href=\"/ai-search-vs-traditional-seo-which-is-better-for-your-small-business-growth-in-2026/\">AI Search vs. Traditional SEO: Which Is Better For Your Small Business Growth in 2026?</a>.</p>\n<h2 id=\"delivering-relevance-the-ai-discovery-file-revolution\">DELIVERING RELEVANCE: THE AI DISCOVERY FILE REVOLUTION</h2>\n<p>One of the most effective, yet underutilised, methods for ensuring your business is “seen” by AI crawlers is the implementation of specialised discovery files. Much like <code>robots.txt</code> How Google was told which pages to index in the 2010s, new standards like <code>llms.txt</code> these<code>ai.json</code> Are becoming the “handshake” between your server and the LLM.</p>\n<h3 id=\"creating-your-llms-txt\">CREATING YOUR LLMS.TXT</h3>\n<p>A <code>llms.txt</code> file is a plain-text Markdown file hosted at your root directory. It serves as a curated map of your most authoritative content, stripped of fluff and optimised for machine consumption. By explicitly telling Gemini which pages represent your core services and expertise, you significantly increase your chances of being cited.</p>\n<h3 id=\"the-speculative-power-of-ai-json\">THE SPECULATIVE POWER OF AI.JSON</h3>\n<p>While still an emerging standard, a <code>ai.json</code> file allows you to provide structured, machine-readable data about your business entities, pricing, and service areas. This “low-friction” support for AI agents ensures that when a user asks for a specific price or location-based service, the AI can pull accurate data directly from your verified source.</p>\n<p><img src=\"https://cdn.marblism.com/Jx4CNymzVx0.webp\" alt=\"Conceptual 3D render of website architecture with llms.txt and Schema.org nodes\" loading=\"lazy\" decoding=\"async\"></p>\n<p>For businesses operating on a tight budget, these technical tweaks are essential. You can learn more about maximising your impact in our guide to <a href=\"/seo-services-for-small-business-5-budget-friendly-strategies-that-actually-work-in-2026/\">SEO services for small businesses: 5 budget-friendly strategies that actually work in 2026</a>.</p>\n<h2 id=\"creating-citation-worthy-content-the-e-e-a-t-mandate\">CREATING CITATION-WORTHY CONTENT: THE E-E-A-T MANDATE</h2>\n<p>Google’s Gemini 3 prioritises “traceable information”. This means the models are programmed to cite sources that demonstrate high levels of Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T).</p>\n<p>To become citation-ready, your content must pivot:</p>\n<ul>\n<li><strong>Implement “Answer-First” Structures:</strong> Use your H2 headings to ask a direct question and provide a punchy, 40-60-word answer immediately following it.</li>\n<li><strong>Utilise Structured Data (Schema.org):</strong> Beyond just the “Article” schema, use “LocalBusiness”, “FAQ”, and “Service” schemas to define your relationship with your industry and location.</li>\n<li><strong>Showcase Real-World Impact:</strong> Include case studies and technical data points. Gemini favours content that includes specific percentages and project counts over generic marketing speak.</li>\n</ul>\n<p>Is your current digital footprint up to the task? Check your readiness with our diagnostic: <a href=\"/is-your-business-ai-visible-the-new-seo-strategy-for-uk-brands-in-2026/\">Is Your Business ‘AI-Visible’? The New SEO Strategy for UK Brands in 2026</a>.</p>\n<h2 id=\"boosting-performance-through-technical-precision\">BOOSTING PERFORMANCE THROUGH TECHNICAL PRECISION</h2>\n<p>Many UK businesses fail to realise that their IT infrastructure directly affects their SEO and AI visibility. Slow load times or broken scripts prevent AI crawlers from efficiently “scraping” your site for citations.</p>\n<p>At Global Marketing Firm, we integrate our <a href=\"https://b2b-solutions.pk/custom-web-development-services/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>custom web</strong> </a><a href=\"https://b2b-solutions.pk/custom-web-development-services/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>development&nbsp;services</strong></a> to ensure your “tech stack” is as robust as your marketing strategy. A seamless, 24/7 accessible site isn’t just a convenience: it’s a ranking factor.</p>\n<p>For a step-by-step approach to technical optimisation, read <a href=\"/5-steps-to-build-a-sustainable-tech-stack-and-boost-your-seo/\">5 Steps to Build a Sustainable Tech Stack and Boost Your SEO</a>.</p>\n<h2 id=\"scalable-solutions-partnering-for-success\">SCALABLE SOLUTIONS: PARTNERING FOR SUCCESS</h2>\n<p>Navigating the transition from traditional search to AI-driven discovery requires a partner who understands the nuances of the UK market. Whether you are a local taxi firm looking for specialised <a href=\"https://b2b-solutions.pk/taxi-dispatch-service/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>taxi dispatch service</strong></a> support or a large enterprise undergoing a digital transformation, our commitment to 100% on-time delivery ensures your business stays ahead of the algorithm.</p>\n<p>Many businesses make the mistake of hiring generic SEO services that haven’t updated their playbooks for 2026. Avoid these pitfalls by reviewing the <a href=\"/7-mistakes-youre-making-with-seo-services-for-small-businesses-and-how-to-fix-them/\">7 Mistakes You’re Making with SEO Services for Small Business (and How to Fix Them)</a>.</p>\n<h3 id=\"the-action-plan-for-uk-business-owners\">THE ACTION PLAN FOR UK BUSINESS OWNERS</h3>\n<ol>\n<li><strong>Audit Your CTR:</strong> Use Google Search Console to identify which informational queries have seen a drop in traffic but a steady rank.</li>\n<li><strong>Deploy <code>llms.txt</code>:</strong> Create a curated list of your top 20 most important service and expertise pages.</li>\n<li><strong>Refactor Your Blog:</strong> Ensure every post answers a specific question in the first two paragraphs.</li>\n<li><strong>Leverage AI for Growth:</strong> Don’t just fight AI; use it to produce better, more data-driven content faster.</li>\n</ol>\n<h2 id=\"delivering-the-future-today\">DELIVERING THE FUTURE, TODAY</h2>\n<p>The era of “set it and forget it” SEO is over. Google Gemini 3 is changing the rules, but for those who prioritise authority and technical excellence, the growth opportunities are greater than ever.</p>\n<p>At Global Marketing Firm, we don’t just react to the future; we build it. Our 85% repeat business rate is a testament to our ability to deliver results that matter. If you are ready to stop being ignored by AI and start being cited as the industry leader you are, it’s time to modernise your strategy.</p>\n<p>Contact Global Marketing Firm today for a comprehensive AI visibility audit, and let’s turn those “eaten clicks” into loyal customers.</p>",
+ "contentSchemas": [
+  "{\"@type\":\"BlogPosting\",\"image\":\"https://cdn.marblism.com/qxfmL1mmMDC.webp\",\"author\":{\"url\":\"https://www.globalmarketingfirm.co.uk\",\"name\":\"Global Marketing Firm\",\"@type\":\"Organization\"},\"@context\":\"https://schema.org\",\"headline\":\"AI Overviews Are Eating Your Clicks: How UK Small Businesses Can Get Cited by Google Gemini 3 Instead of Ignored\",\"keywords\":\"digital marketing agency UK, SEO services for small business, Google Gemini 3, AI Overviews, llms.txt, SEO 2026\",\"publisher\":{\"logo\":{\"url\":\"https://cdn.marblism.com/0iLGHFPOsQB.webp\",\"@type\":\"ImageObject\"},\"name\":\"Global Marketing Firm\",\"@type\":\"Organization\"},\"description\":\"Learn how Google Gemini 3 and AI Overviews are impacting UK small business SEO and how to implement llms.txt, ai.json, and E-E-A-T to secure citations and drive high-converting traffic.\",\"datePublished\":\"2026-07-13\",\"articleSection\":\"Digital Marketing\"}"
+ ],
+ "comments": [],
+ "readingMinutes": 5,
+ "seo": {
+  "title": "AI Overviews Are Eating Your Clicks: How UK Small Businesses Can Get Cited by Google Gemini 3 Instead of Ignored - Global Marketing Firm",
+  "description": null,
+  "canonical": "/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2026/07/qxfmL1mmMDC.webp",
+   "width": 1792,
+   "height": 1008,
+   "type": "image/webp"
+  },
+  "published": "2026-07-13T12:54:51+00:00",
+  "modified": "2026-07-13T13:08:56+00:00",
+  "twitter": {
+   "twitter:label1": "Written by",
+   "twitter:data1": "admin",
+   "twitter:label2": "Est. reading time",
+   "twitter:data2": "6 minutes"
+  },
+  "schema": [
+   {
+    "@type": "Article",
+    "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#article",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/"
+    },
+    "author": {
+     "name": "admin",
+     "@id": "https://globalmarketingfirm.co.uk/#/schema/person/5fadd3b6ef337bdef9fe9d98a4820b96"
+    },
+    "headline": "AI Overviews Are Eating Your Clicks: How UK Small Businesses Can Get Cited by Google Gemini 3 Instead of Ignored",
+    "datePublished": "2026-07-13T12:54:51+00:00",
+    "dateModified": "2026-07-13T13:08:56+00:00",
+    "mainEntityOfPage": {
+     "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/"
+    },
+    "wordCount": 1061,
+    "commentCount": 0,
+    "image": {
+     "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#primaryimage"
+    },
+    "thumbnailUrl": "https://globalmarketingfirm.co.uk/wp-content/uploads/2026/07/qxfmL1mmMDC.webp",
+    "keywords": [
+     "Digital Marketing Solutions",
+     "search engine optimisation",
+     "web development"
+    ],
+    "articleSection": [
+     "AI"
+    ],
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "CommentAction",
+      "name": "Comment",
+      "target": [
+       "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#respond"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/",
+    "url": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/",
+    "name": "AI Overviews Are Eating Your Clicks: How UK Small Businesses Can Get Cited by Google Gemini 3 Instead of Ignored - Global Marketing Firm",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "primaryImageOfPage": {
+     "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#primaryimage"
+    },
+    "image": {
+     "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#primaryimage"
+    },
+    "thumbnailUrl": "https://globalmarketingfirm.co.uk/wp-content/uploads/2026/07/qxfmL1mmMDC.webp",
+    "datePublished": "2026-07-13T12:54:51+00:00",
+    "dateModified": "2026-07-13T13:08:56+00:00",
+    "author": {
+     "@id": "https://globalmarketingfirm.co.uk/#/schema/person/5fadd3b6ef337bdef9fe9d98a4820b96"
+    },
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "ImageObject",
+    "inLanguage": "en-US",
+    "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#primaryimage",
+    "url": "https://globalmarketingfirm.co.uk/wp-content/uploads/2026/07/qxfmL1mmMDC.webp",
+    "contentUrl": "https://globalmarketingfirm.co.uk/wp-content/uploads/2026/07/qxfmL1mmMDC.webp",
+    "width": 1792,
+    "height": 1008
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/ai-overviews-are-eating-your-clicks-how-uk-small-businesses-can-get-cited-by-google-gemini-3-instead-of-ignored/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "blog",
+      "item": "https://globalmarketingfirm.co.uk/blog/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "AI Overviews Are Eating Your Clicks: How UK Small Businesses Can Get Cited by Google Gemini 3 Instead of Ignored"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   },
+   {
+    "@type": "Person",
+    "@id": "https://globalmarketingfirm.co.uk/#/schema/person/5fadd3b6ef337bdef9fe9d98a4820b96",
+    "name": "admin",
+    "image": {
+     "@type": "ImageObject",
+     "inLanguage": "en-US",
+     "@id": "https://secure.gravatar.com/avatar/7e78a967805928f2a783419697928232232e7910906cfa3b7ba5e9bb1df66184?s=96&d=mm&r=g",
+     "url": "https://secure.gravatar.com/avatar/7e78a967805928f2a783419697928232232e7910906cfa3b7ba5e9bb1df66184?s=96&d=mm&r=g",
+     "contentUrl": "https://secure.gravatar.com/avatar/7e78a967805928f2a783419697928232232e7910906cfa3b7ba5e9bb1df66184?s=96&d=mm&r=g",
+     "caption": "admin"
+    },
+    "sameAs": [
+     "https://globalmarketingfirm.co.uk/Demo-backup/demo/dev/"
+    ],
+    "url": "https://globalmarketingfirm.co.uk/author/admin/"
+   },
+   {
+    "@type": "BlogPosting",
+    "image": "https://cdn.marblism.com/qxfmL1mmMDC.webp",
+    "author": {
+     "url": "https://www.globalmarketingfirm.co.uk",
+     "name": "Global Marketing Firm",
+     "@type": "Organization"
+    },
+    "@context": "https://schema.org",
+    "headline": "AI Overviews Are Eating Your Clicks: How UK Small Businesses Can Get Cited by Google Gemini 3 Instead of Ignored",
+    "keywords": "digital marketing agency UK, SEO services for small business, Google Gemini 3, AI Overviews, llms.txt, SEO 2026",
+    "publisher": {
+     "logo": {
+      "url": "https://cdn.marblism.com/0iLGHFPOsQB.webp",
+      "@type": "ImageObject"
+     },
+     "name": "Global Marketing Firm",
+     "@type": "Organization"
+    },
+    "description": "Learn how Google Gemini 3 and AI Overviews are impacting UK small business SEO and how to implement llms.txt, ai.json, and E-E-A-T to secure citations and drive high-converting traffic.",
+    "datePublished": "2026-07-13",
+    "articleSection": "Digital Marketing"
+   }
+  ]
+ }
+}

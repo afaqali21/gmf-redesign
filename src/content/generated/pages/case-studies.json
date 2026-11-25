@@ -1,0 +1,197 @@
+{
+ "path": "/case-studies/",
+ "seo": {
+  "title": "Our Work | Digital Marketing Portfolio | Case Studies | Clients",
+  "description": "Explore our client case studies and see the results we've delivered for small businesses to large enterprises in digital marketing, SEO, design, development & more.",
+  "canonical": "/case-studies/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:19:49+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/case-studies/",
+    "url": "https://globalmarketingfirm.co.uk/case-studies/",
+    "name": "Our Work | Digital Marketing Portfolio | Case Studies | Clients",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2018-09-05T13:21:34+00:00",
+    "dateModified": "2024-08-05T08:19:49+00:00",
+    "description": "Explore our client case studies and see the results we've delivered for small businesses to large enterprises in digital marketing, SEO, design, development & more.",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/case-studies/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/case-studies/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/case-studies/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Case Studies"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Case Studies"
+  },
+  {
+   "t": "p",
+   "html": "See real-life examples of our work for clients from different industries and countries.<br> These businesses have benefitted from working with a fully integrated marketing firm<br> that offer them a range of services from digital marketing to web development."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/minicabs-1.jpg",
+   "alt": "minicabs",
+   "link": "/minicabs-solutions/"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Minicabs.co.uk"
+  },
+  {
+   "t": "p",
+   "html": "<b> Industry</b>: <br> Minicabs &amp; Private Hire"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/breaking-bread.jpg",
+   "alt": "breaking-bread"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Breaking Bread Trust"
+  },
+  {
+   "t": "p",
+   "html": "<b>Industry</b>: <br> Charity Organisation"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/minicabforlondon.jpg",
+   "alt": "minicabforlondon"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Minicab For London"
+  },
+  {
+   "t": "p",
+   "html": "<b>Industry</b>:<br> Minicabs &amp; Private Hire"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/landlord-certificate.jpg",
+   "alt": "landlord safety certificate"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Landlord Safety Certificate"
+  },
+  {
+   "t": "p",
+   "html": "<b>Industry</b>: <br> Gas &amp; Electrical Safety"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/ducane-1.jpg",
+   "alt": "ducane",
+   "link": "/dry-cleaning-solutions/"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Ducane Dry Cleaners"
+  },
+  {
+   "t": "p",
+   "html": "<b>Industry</b>: <br>Dry Cleaning &amp; Laundry"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/guardforce-ae.jpg",
+   "alt": "guardforce.ae"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "guardforce.ae"
+  },
+  {
+   "t": "p",
+   "html": "<b>Industry</b>: <br> Security Services"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/relo-it.jpg",
+   "alt": "relo-it"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Relo.it"
+  },
+  {
+   "t": "p",
+   "html": "<b>Industry</b>: <br> Corporate Relocation Industry"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2018/09/guardforce-uk.jpg",
+   "alt": "guardforce.uk"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "guardforcesecurity.co.uk"
+  },
+  {
+   "t": "p",
+   "html": "<b>Industry</b>: <br> Security Services"
+  }
+ ]
+}
