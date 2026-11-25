@@ -1,0 +1,248 @@
+{
+ "path": "/email-marketing/",
+ "seo": {
+  "title": "Boost Your Sales I Email Marketing for Small Business Made Easy",
+  "description": "Release growth with Email Marketing for Small Business. Discover top strategies and tools for effective email marketing in the UK to boost your business success.",
+  "canonical": "/email-marketing/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:33:38+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/email-marketing/",
+    "url": "https://globalmarketingfirm.co.uk/email-marketing/",
+    "name": "Boost Your Sales I Email Marketing for Small Business Made Easy",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2021-11-01T15:47:39+00:00",
+    "dateModified": "2024-08-05T08:33:38+00:00",
+    "description": "Release growth with Email Marketing for Small Business. Discover top strategies and tools for effective email marketing in the UK to boost your business success.",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/email-marketing/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/email-marketing/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/email-marketing/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Email Marketing"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Email Marketing"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/email-marketing.jpg",
+   "alt": "Email Marketing Services in UK"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Emails that convert"
+  },
+  {
+   "t": "p",
+   "html": "Professionally branded, intent-based email copies that generate sales."
+  },
+  {
+   "t": "p",
+   "html": "Whether you’re a startup or an established business, we ensure brand awareness, conversions, and customer loyalty for your company through carefully curated emails."
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "What is email marketing?"
+  },
+  {
+   "t": "p",
+   "html": "Email marketing allows you to form a deep connection with your audience. The goal is not only to drive sales and promote services via newsletters but also to build a community surrounding your brand."
+  },
+  {
+   "t": "p",
+   "html": "It’s a tool for modern businesses that focus on personalization to deliver highly engaging email copies that promote your products and services while informing your customers about the latest items."
+  },
+  {
+   "t": "p",
+   "html": "Let’s take a look at why email marketing is important and how it can help you grow as a business."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/email-marketing-2.jpg",
+   "alt": "Email Marketing Services in London"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "IMPORTANCE OF EMAIL MARKETING"
+  },
+  {
+   "t": "p",
+   "html": "Email marketing helps you create an undisrupted buyer’s journey. From building and nurturing leads to contacting past customers, email is your opportunity to converse with potential clients, directly in their inbox. On average, every dollar spent on email marketing generates $38 in revenues."
+  },
+  {
+   "t": "p",
+   "html": "Here are a few ways email marketing can help your business grow and prosper:"
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Stay connected",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "In the modern age, there are too many distractions and too little attention to spare. People are constantly hammered with notifications. From social media to the local chiropractor, everyone demands awareness. An email is a personal approach to the busy schedule of your subscribers. It not only keeps them informed but is capable of making them feel special",
+   "step": true
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Engagement",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Email is one of the oldest forms of digital communication. People are more likely to engage in emails compared to other marketing campaigns. It’s not as if they visited a random website when a chatbox suddenly pops up, trying to initiate a conversation. Your subscribers are more likely to engage with your emails since they chose to be on your mailing list for whatever reason.",
+   "step": true
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Cost-effective",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Compared to other forms of online marketing, email marketing is the cheapest. The reason why companies — both large and small — are migrating to emails is simply because of the low cost per conversion.",
+   "step": true
+  },
+  {
+   "t": "h",
+   "level": 4,
+   "text": "Targeted approach",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Emails help you target potential customers at different stages of their buying journey, way more effectively. You have a lot of leeways when curating such emails, like including a GIF or a personal message that’s unique to such clientele.",
+   "step": true
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2018/10/attachment-04.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "EMAIL MARKETING TIPS"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Email list",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Building an effective email list is the first step towards creating an email marketing campaign",
+   "step": true
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Welcome Message",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "You never get a second chance to make a good first impression. Don’t just introduce your brand, try to establish a relationship with your subscribers.",
+   "step": true
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Goals",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Whether you’re promoting a product, offering discounts, or wishing birthdays, have a clear goal in mind to get the maximum out of the marketing campaigns, as they help you create a better and more convincing email content.",
+   "step": true
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "WHERE DO WE COME IN?"
+  },
+  {
+   "t": "p",
+   "html": "As a global marketing firm, we understand the importance of email marketing. In addition to curated messages, we also provide GIFs and photos for better engagement with your subscribers. Contact us today for a free consultation and learn how you can take your business to the next level."
+  },
+  {
+   "t": "cta",
+   "label": "Call Us",
+   "href": "tel:02071831099"
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/01/email-marketing-background-1-800x406.jpg",
+   "alt": ""
+  }
+ ]
+}

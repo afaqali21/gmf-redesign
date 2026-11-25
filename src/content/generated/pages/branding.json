@@ -1,0 +1,182 @@
+{
+ "path": "/branding/",
+ "seo": {
+  "title": "Small Business Branding on a Budget - Logo & Branding",
+  "description": "Design a powerful online presence! Our branding management experts promote your digital brand with a cohesive strategy.",
+  "canonical": "/branding/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:35:37+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/branding/",
+    "url": "https://globalmarketingfirm.co.uk/branding/",
+    "name": "Small Business Branding on a Budget - Logo & Branding",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2022-01-14T17:21:46+00:00",
+    "dateModified": "2024-08-05T08:35:37+00:00",
+    "description": "Design a powerful online presence! Our branding management experts promote your digital brand with a cohesive strategy.",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/branding/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/branding/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/branding/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Branding"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Branding"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/branding-1.jpg",
+   "alt": "Branding Services in UK"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "What is branding?"
+  },
+  {
+   "t": "p",
+   "html": "Branding is what differentiates you from the hundreds of other companies out there. The name and logo of any reputable brand carry with itself a sense of authority. Executed correctly, brands hold the power to convert potential buyers into lifelong consumers."
+  },
+  {
+   "t": "p",
+   "html": "A brand is a collection of perceptions people harbour towards your company. Branding on the other hand represents the actions you take to cultivate and promote that image/perception."
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "How essential is branding to marketing?"
+  },
+  {
+   "t": "p",
+   "html": "Consumers do not trust the product, they trust the brand. Brands are more than just a logo or a quirky catchphrase. It’s an emotion that drives them to take action. Branding is important because it signifies the positive reaction consumers have towards a particular product or service. Branding creates a unique style and recognition that is exclusive to your company. It increases your exposure in the market and helps you stand out from the crowd."
+  },
+  {
+   "t": "p",
+   "html": "There are no shortages of rebranding failures in the history of marketing. Mastercard, Capital One, Gap, Kraft, Tropicana have fallen victims to damaging brand image and have lost millions in the process of reversing the pain. Therefore, maintaining a consistent branding experience across all of your products and items is the key to successful branding."
+  },
+  {
+   "t": "p",
+   "html": "A logo comprises the brand’s entire personality. It’s an easy-to-recognize image that embeds itself into your mind and reminds you of good/bad times you experienced with said product. It’s a powerful part of the branding process. Pick someone with prior experience to build your logo, because it’s going to be the face of your company. The same rules apply when you’re picking a font, colour scheme, and shape of your logo. Even the social media posts you put out must in some way represent your brand’s true essence."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/01/branding.jpg",
+   "alt": "Branding Services in London"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "4 ways branding impact your business"
+  },
+  {
+   "t": "p",
+   "html": "Successful branding requires planning and foresight. Let’s take a brief look at<br> the development process involved in creating a brand. The impacts of branding are as follows:"
+  },
+  {
+   "t": "p",
+   "html": "It increases your business’ recognition",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "It invites new customers to buy your products.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Branding establishes trust among customers so they will more likely buy your services.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Branding creates buyer aspirations, letting your consumers relate your products with social norms.",
+   "step": true
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2018/10/attachment-04.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "WHAT DO WE DO?"
+  },
+  {
+   "t": "p",
+   "html": "We understand the importance of branding and as a global marketing firm, we provide a team of experienced professionals who are experts in the craft. Contact us today for a free consultation anda become the unique brand you were always meant to be."
+  },
+  {
+   "t": "cta",
+   "label": "Call Us",
+   "href": "tel:02071831099"
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/01/branding-background-800x406.jpg",
+   "alt": ""
+  }
+ ]
+}

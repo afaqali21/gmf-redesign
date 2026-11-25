@@ -1,0 +1,209 @@
+{
+ "path": "/minicabs-solutions/",
+ "seo": {
+  "title": "Minicabs Solutions - Global Marketing Firm",
+  "description": null,
+  "canonical": "/minicabs-solutions/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2022-02-21T10:41:25+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/minicabs-solutions/",
+    "url": "https://globalmarketingfirm.co.uk/minicabs-solutions/",
+    "name": "Minicabs Solutions - Global Marketing Firm",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2022-02-07T12:30:35+00:00",
+    "dateModified": "2022-02-21T10:41:25+00:00",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/minicabs-solutions/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/minicabs-solutions/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/minicabs-solutions/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Minicabs Solutions"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/02/minicabs-header-2.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Minicabs Solutions"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Marketing Agency And Web Development Specialising In Minicabs"
+  },
+  {
+   "t": "p",
+   "html": "For over five years our marketing firm has had several clients within the Minicab industry for whom we have provided a complete digital solution. Our project started with Web Development but we did not stop there."
+  },
+  {
+   "t": "p",
+   "html": "We offered our experience and help to grow two minicab companies nationally through carefully crafted SEO optimised website content and a regular social media posting schedule. Our graphic designers have been able to create vibrant images that our clients have been able to use for social media, marketing material and also at launch events."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/step-1-2-800x600.png",
+   "alt": "Web Development for minicabs"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Custom Web Development & Booking Engine"
+  },
+  {
+   "t": "p",
+   "html": "When our firm took on projects for Minicab For London we went through detailed analysis and research into the minicab industry including what our client’s competitors were doing. What we found was small to medium businesses were only using a simple HTML one-page website with a very old fashioned booking form and not a booking engine. We also found that very small businesses had no online presence at all. Our firm had the vision to offer a service and online presence similar to uber and that is what we have been proud to deliver."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/minicabs-booking-process.jpg",
+   "alt": "Booking step of minicabs"
+  },
+  {
+   "t": "p",
+   "html": "The end result was a bespoke website complete with all service pages that were tailor made by our in house content team.<br> The homepage was like no other catching the attention of the end user with our clients strapline,<br> ‘Nothing is better than experience.’ The main purpose of our clients website is to generate bookings,<br> and we maximised conversions by creating a simple yet powerful three step booking engine.<br> This only required the end user to put the required information to book their service and nothing more."
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Developed a Market Leading Document Management Tool for All PHV Drivers"
+  },
+  {
+   "t": "p",
+   "html": "Developed a Market Leading Document Management Tool for All PHV DriversAs a licensed minicab operator<br> you are prone to checks and audits carried out by Transport For London (TFL). When visiting they will be<br> required to check all documents of registered drivers, vehicles and complaints. Until we provided<br> a complete digital solution our client would have to photocopy and update countless<br> amounts of documents on a regular basis and then keep these stored on site."
+  },
+  {
+   "t": "p",
+   "html": "&nbsp;We created a Cloud Based Document Management tool that allows driver records and documents to be stored virtually. This is not only environmentally friendly but it is a state of the art system that makes it easy to run search queries for the Admin team. It has been two years since our clients have been using this system and since then we have only included more features and made it even more robust. The feedback our client has received from Transport For London (TFL) during their audits has been nothing short of spectacular."
+  },
+  {
+   "t": "p",
+   "html": "<strong>Approved by Transport For London (TFL)</strong><br>"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/800x600.jpg",
+   "alt": "approved by TFL"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "API And Integration With ICabbi."
+  },
+  {
+   "t": "p",
+   "html": "API stands for Application Programming Interface. This Is a software intermediary that allows two applications to talk to each other. Each time you use an app like Facebook, send an instant message, or check the weather on your phone, you’re using an API. Our experienced team of web developers were able to find the compatible API’s that work with iCabbi"
+  },
+  {
+   "t": "p",
+   "html": "Our developers are able to find a solution for your company that works with Cab treasure, Zoom Taxi, CMS, Cordic, Autocab. Even you are using a different booking and despatch software we can provide you with a complete digital solution.<br> This is the cloud based booking and despatch system our clients use to manage their bookings, customers and drivers. Once our developers implemented the integration this meant that the bookings from the website would automatically come into their iCabbi system without any manual work. This is complete with email confirmations of payments for both the customer and accounts team. Furthermore all bookings that were already prepaid were updated to the correct account within iCabbi to make sure accounting records are accurate."
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/02/api-800x285.jpg",
+   "alt": ""
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Backend Web Development"
+  },
+  {
+   "t": "p",
+   "html": "Your data is complex. Your product has lots of integrations. But your end-user experience needs to feel easy, user-friendly,<br> and well designed. This is where the importance of strong backend web services and interface cannot be overstated.<br> We developed a user interface with the end user at mind. From simplifying the booking engine to finding the right<br> API’s to automate all booking related information to be sent via SMS to the customer automatically"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/backend-development-1-1.png",
+   "alt": ""
+  },
+  {
+   "t": "p",
+   "html": "Our team was also responsible for creating the sign up and login facility on the website making sure<br> it is not only a robust system but also GDPR compliant.To facilitate our clients staff members we created an<br> Admin panel dashboard that displayed all information and data related to online bookings and users.<br> This allowed staff members to create reports, run search queries, check unsuccessful<br> bookings and assist users with manual password resets."
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "App Development For iPhone & Android"
+  },
+  {
+   "t": "p",
+   "html": "We believe it is so much easier for our clients to work with a marketing firm that can offer a complete digital solution for all their needs. Our developers are proud to have created a market leading app for customers to download both on iPhone and Android."
+  },
+  {
+   "t": "p",
+   "html": "Our client has been impressed by our results as well as our ongoing support to accommodate requests for new features and updates. Minicabs.co.uk customers love the app too and are heavily reliant on it for their minicab needs. Since launching we have added many new features such as Favourite Locations and saving Payment Methods for an even quicker booking experience."
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2022/02/minicabs-apps.jpg",
+   "alt": "App development for minicabs"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2022/02/social-media-1.jpg",
+   "alt": "Social media handelres for minicabs"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "Social Media"
+  },
+  {
+   "t": "p",
+   "html": "The team at Minicabs.co.uk were so relieved when we took responsibility for all their social media channels. They no longer had to figure out what to post and how often to post. What they get now is a detailed social media posting schedule created by us that our team members follow. Our in-house graphic designers create catchy and vibrant pictures that you will be proud of. Before we carry out any work on a client’s social media platforms, we ensure the profile is set up correctly and looks professional. What our client really appreciates is we always get their input and keep them in the loop. So, when it is promotional season, we coordinate with our client to post an offer or a giveaway."
+  }
+ ]
+}

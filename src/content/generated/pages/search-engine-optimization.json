@@ -1,0 +1,150 @@
+{
+ "path": "/search-engine-optimization/",
+ "seo": {
+  "title": "Professional and Affordable SEO services company in Uk",
+  "description": "Skyrocket your website's ranking with our professional SEO services! We're the best in the UK - Get a free quote today!",
+  "canonical": "/search-engine-optimization/",
+  "ogType": "article",
+  "ogImage": {
+   "url": "/wp-content/uploads/2024/05/global-marketing-firm.png",
+   "width": 1200,
+   "height": 675,
+   "type": "image/png"
+  },
+  "published": null,
+  "modified": "2024-08-05T08:28:04+00:00",
+  "twitter": {
+   "twitter:label1": "Est. reading time",
+   "twitter:data1": "1 minute"
+  },
+  "schema": [
+   {
+    "@type": "WebPage",
+    "@id": "https://globalmarketingfirm.co.uk/search-engine-optimization/",
+    "url": "https://globalmarketingfirm.co.uk/search-engine-optimization/",
+    "name": "Professional and Affordable SEO services company in Uk",
+    "isPartOf": {
+     "@id": "https://globalmarketingfirm.co.uk/#website"
+    },
+    "datePublished": "2024-05-10T08:51:01+00:00",
+    "dateModified": "2024-08-05T08:28:04+00:00",
+    "description": "Skyrocket your website's ranking with our professional SEO services! We're the best in the UK - Get a free quote today!",
+    "breadcrumb": {
+     "@id": "https://globalmarketingfirm.co.uk/search-engine-optimization/#breadcrumb"
+    },
+    "inLanguage": "en-US",
+    "potentialAction": [
+     {
+      "@type": "ReadAction",
+      "target": [
+       "https://globalmarketingfirm.co.uk/search-engine-optimization/"
+      ]
+     }
+    ]
+   },
+   {
+    "@type": "BreadcrumbList",
+    "@id": "https://globalmarketingfirm.co.uk/search-engine-optimization/#breadcrumb",
+    "itemListElement": [
+     {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://globalmarketingfirm.co.uk/"
+     },
+     {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Search Engine Optimization"
+     }
+    ]
+   },
+   {
+    "@type": "WebSite",
+    "@id": "https://globalmarketingfirm.co.uk/#website",
+    "url": "https://globalmarketingfirm.co.uk/",
+    "name": "Global Marketing Firm",
+    "description": "Complete digital solution",
+    "inLanguage": "en-US"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "t": "h",
+   "level": 1,
+   "text": "Social Engine Optimization"
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2024/05/seo-1.png",
+   "alt": "Search Engine Optimization in UK"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "What is Search Engine Optimization(SEO)?"
+  },
+  {
+   "t": "p",
+   "html": "Search engine optimization (SEO) is like improving your website’s ranking in a giant library search engine. By using relevant keywords and clear information, SEO helps search engines understand your website and show it to people looking for what you offer, making your website easier to find."
+  },
+  {
+   "t": "p",
+   "html": "We are your SEO superheroes, wielding the power of keyword mastery and content creation to propel your website to the top. Attract a global audience and watch your traffic soar as our experts craft a winning SEO strategy, ensuring your website becomes the shining beacon customers worldwide are searching for."
+  },
+  {
+   "t": "cta",
+   "label": "INSTANT QUOTE",
+   "href": "/booking/"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "How SEO Can Squeeze Your Business to New Heights"
+  },
+  {
+   "t": "p",
+   "html": "Don’t let your website suffer in search ambiguity!Let’s collab with us to unleash the power of SEO. Imagine a global audience rocketing towards your optimized website, fueled by expert keyword targeting and strategic content creation."
+  },
+  {
+   "t": "p",
+   "html": "SEO, in the hands of these digital marketing astronauts, becomes your first-class ticket to stratospheric business success, leaving competitors&nbsp;in&nbsp;the&nbsp;dust."
+  },
+  {
+   "t": "img",
+   "src": "/wp-content/uploads/2024/05/seo-2.png",
+   "alt": "Search Engine Optimization In London"
+  },
+  {
+   "t": "h",
+   "level": 3,
+   "text": "4 ways seacrh engine optimization can impact your business"
+  },
+  {
+   "t": "p",
+   "html": "SEO helps your website rank higher on search engines, making it more visible to potential customers.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Higher rankings lead to increased organic traffic, driving more potential customers to your site without paid ads.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "SEO involves optimizing your website's speed, navigation, and content, enhancing the user experience.",
+   "step": true
+  },
+  {
+   "t": "p",
+   "html": "Websites that rank well are often perceived as more credible and trustworthy, boosting your brand's reputation.",
+   "step": true
+  },
+  {
+   "t": "bg",
+   "src": "/wp-content/uploads/2018/10/attachment-04.jpg",
+   "alt": ""
+  }
+ ]
+}

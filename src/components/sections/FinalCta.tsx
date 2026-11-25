@@ -3,10 +3,21 @@ import { site } from "@/content/site";
 import { ButtonLink } from "@/components/ui/Button";
 import { Reveal } from "@/components/motion/Reveal";
 import { ArrowRightIcon, PhoneIcon } from "@/components/ui/Icons";
+import type { ReactNode } from "react";
 
-export function FinalCta() {
+type Props = {
+  /** Defaults to the homepage copy. Inner pages pass their own closing heading and text. */
+  title?: ReactNode;
+  text?: ReactNode;
+  actions?: ReactNode;
+  /** Heading tag; inner pages keep the level WordPress used. */
+  as?: "h2" | "h3" | "p";
+  className?: string;
+};
+
+export function FinalCta({ title = finalCta.title, text = finalCta.text, actions, as: Heading = "h2", className = "bg-white pb-24 sm:pb-32" }: Props = {}) {
   return (
-    <section aria-labelledby="cta-title" className="bg-white pb-24 sm:pb-32">
+    <section aria-labelledby="cta-title" className={className}>
       <div className="container-page">
         <Reveal direction="scale">
           <div className="grain relative isolate overflow-hidden rounded-[2.75rem] px-8 py-16 text-center shadow-[0_50px_100px_-40px_rgb(215_13_67/0.6)] sm:px-16 sm:py-24">
@@ -19,17 +30,25 @@ export function FinalCta() {
             <div aria-hidden="true" className="absolute right-1/4 top-8 size-3 animate-float rounded-full bg-white/70 shadow-[0_0_20px_white]" />
             <div aria-hidden="true" className="absolute bottom-12 left-1/4 size-2 animate-float-slow rounded-full bg-white/60" />
 
-            <h2 id="cta-title" className="mx-auto max-w-3xl text-[2rem] font-bold leading-[1.08] tracking-[-0.035em] text-white sm:text-6xl">
-              {finalCta.title}
-            </h2>
-            <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/80">{finalCta.text}</p>
+            <Heading id="cta-title" className="mx-auto max-w-3xl text-[2rem] font-bold leading-[1.08] tracking-[-0.035em] text-white sm:text-6xl">
+              {title}
+            </Heading>
+            {typeof text === "string" ? (
+              <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/80">{text}</p>
+            ) : (
+              text && <div className="mx-auto mt-6 max-w-2xl space-y-4 text-lg leading-relaxed text-white/80">{text}</div>
+            )}
             <div className="mt-11 flex flex-col justify-center gap-3 sm:flex-row">
-              <ButtonLink href={site.bookingPath} variant="light" size="lg">
-                Free consultation <ArrowRightIcon className="size-4" />
-              </ButtonLink>
-              <ButtonLink href={site.phone.tel} variant="ghost-light" size="lg">
-                <PhoneIcon className="size-4" /> {site.phone.display}
-              </ButtonLink>
+              {actions ?? (
+                <>
+                  <ButtonLink href={site.bookingPath} variant="light" size="lg">
+                    Free consultation <ArrowRightIcon className="size-4" />
+                  </ButtonLink>
+                  <ButtonLink href={site.phone.tel} variant="ghost-light" size="lg">
+                    <PhoneIcon className="size-4" /> {site.phone.display}
+                  </ButtonLink>
+                </>
+              )}
             </div>
           </div>
         </Reveal>
