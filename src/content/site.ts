@@ -13,11 +13,11 @@ export const site = {
   },
   email: "info@globalmarketingfirm.co.uk",
   address: {
-    street: "312b Eastcote Lane",
+    street: "124 City Road",
     locality: "London",
-    postcode: "HA2 9AH",
+    postcode: "EC1V 2NX",
     country: "GB",
-    display: "312b Eastcote Lane, HA2 9AH, London",
+    display: "124 City Road,London,EC1V 2NX",
   },
   bookingPath: "/booking/",
   social: [

@@ -209,7 +209,9 @@ function sanitize($, root) {
 for (const slug of ["terms", "privacy-policy"]) {
   const $ = load(`/${slug}/`);
   const h1 = clean($(".vlt-page-title-hero__title").first().text());
-  const rows = $(".vlt-main .vc_section").slice(1);
+  // Top-level blocks after the title hero. The privacy page wraps its rows in .vc_section; the terms
+  // page has a bare .vc_row after its title section.
+  const rows = $(".vlt-main .vc_section, .vlt-main .vc_row:not(.vc_inner)").filter((_, r) => !$(r).parents(".vc_section").length).slice(1);
   const wrap = $("<div></div>");
   rows.each((_, r) => wrap.append($(r).clone()));
   const html = sanitize($, wrap);

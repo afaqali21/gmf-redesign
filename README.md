@@ -60,7 +60,7 @@ Every page in the WordPress sitemap is rebuilt at its original URL with its orig
 | `IndustryPage` | `/law-firm-seo/`, `/travel-seo-services/` | Service cards, process track, checklist grids, FAQ accordion |
 | `CaseStudyPage` | `/minicabs-solutions/`, `/dry-cleaning-solutions/` | Overview plus chapters with a sticky chapter index |
 | Own page | `/about/`, `/case-studies/`, `/contact/`, `/booking/` | Storytelling layout, portfolio grid, contact cards and map, quote form |
-| `LegalPage` | `/terms/`, `/privacy-policy/` | Reading layout with an "On this page" index |
+| `LegalPage` | `/terms/`, `/privacy-policy/`, `/cookie-policy-uk/` | Reading layout with an "On this page" index |
 | Blog | `/blog/` (+ `/page/N/`), posts at `/<slug>/`, `/category/…`, `/tag/…`, `/author/admin/` | Lead story, category chips, cards, pagination, articles with TOC, reading progress, comments |
 
 ### Forms
@@ -138,9 +138,11 @@ These changes were approved on 2026-11-25:
 - The call center has no page on the current site, so links point to `#call-center` and `/contact/`. Should it get its own URL? That would be a new page.
 - "More about our services" pointed to `#`. It now goes to `/about/`.
 - `og:locale` and `inLanguage` stay `en_US`, as on WordPress. Change them to `en_GB` if you want.
-- Cookie consent (Complianz) isn't rebuilt yet. Add it before any analytics or marketing scripts.
+- **Cookie banner:** `components/consent/CookieBanner.tsx` replaces Complianz. It offers "Accept all" and "Reject non-essential" with equal weight and stores the choice for 6 months in the `gmf_consent` cookie (`lib/consent.ts`). "Cookie settings" in the footer reopens it. The Google Map on `/contact/` loads only after consent. Any future analytics or marketing script must check `useConsent() === "all"` before loading, and the cookie policy must list it.
+- `/cookie-policy-uk/` has new text written for the rebuilt site, because the original was never archived. Have it reviewed.
+- `/terms/` now shows its full original text. It was published with a jumbled sentence ("you should stop using the … Website immediately") and an empty "The registered VAT number is.". Both are kept as published.
 - `/page-home/` now redirects to `/` (308). Revert it in `next.config.ts` if you want to keep it.
-- **31 posts and `/cookie-policy-uk/` aren't migrated yet.** Their text was never archived and the live site blocks automated access, so these URLs return 404. Three of these posts are linked from the homepage "Latest from the blog" section, and the cookie policy is linked from the footer. Supply a WordPress export (Tools → Export) or whitelist the server's IP, then rerun the migration. The list is in `docs/MIGRATION-STATUS.md`.
+- **31 posts aren't migrated yet.** Their text was never archived and the live site blocks automated access, so these URLs return 404. Three of these posts are linked from the homepage "Latest from the blog" section. Supply a WordPress export (Tools → Export) or whitelist the server's IP, then rerun the migration. The list is in `docs/MIGRATION-STATUS.md`.
 - **Copy `wp-content/uploads` from the WordPress server** into `public/wp-content/uploads`, then rebuild. Some image references (case-study photos, 11 post thumbnails, images inside older posts) are missing. They reappear automatically once the files are in place.
 - Replace the placeholder `/wp-content/uploads/2024/05/global-marketing-firm.png` (the Open Graph image) with the original.
 - Add the info@ mailbox SMTP settings (`SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`) to the hosting before go-live, or the forms can't send.

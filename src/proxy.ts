@@ -43,7 +43,7 @@ export const config = {
   // Single-segment paths except static pages (keep in sync with src/content/routes.ts), files and
   // Next internals, plus blog pagination and archives. Matcher values must be literals.
   matcher: [
-    "/((?!(?:_next|api|wp-content|images|about|booking|contact|case-studies|minicabs-solutions|dry-cleaning-solutions|search-engine-marketing|social-media-marketing|search-engine-optimization|email-marketing|google-ads|branding|app-development|web-development|app-design|graphic-design|web-design|law-firm-seo|travel-seo-services|terms|privacy-policy|blog|category|tag|author|page-home|form-maker)(?:/|$))[^/.]+)/",
+    "/((?!(?:_next|api|wp-content|images|about|booking|contact|case-studies|minicabs-solutions|dry-cleaning-solutions|search-engine-marketing|social-media-marketing|search-engine-optimization|email-marketing|google-ads|branding|app-development|web-development|app-design|graphic-design|web-design|law-firm-seo|travel-seo-services|terms|privacy-policy|cookie-policy-uk|blog|category|tag|author|page-home|form-maker)(?:/|$))[^/.]+)/",
     "/blog/page/:n*",
     "/(category|tag|author)/:slug/:rest*",
   ],

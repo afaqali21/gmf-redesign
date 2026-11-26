@@ -4,7 +4,7 @@ import { allPosts, archives } from "@/lib/content";
 import { absoluteUrl } from "@/lib/seo";
 import { staticPaths } from "@/content/routes";
 
-// /page-home/ and /form-maker/preview/ now redirect, and /cookie-policy-uk/ awaits its content.
+// /page-home/ and /form-maker/preview/ now redirect.
 
 const lastmod = new Map(inventory.urls.map((u) => [u.path, u.lastmod]));
 

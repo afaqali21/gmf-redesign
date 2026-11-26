@@ -6,6 +6,7 @@ import { ContactForm } from "@/components/forms/Forms";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
 import { TiltCard } from "@/components/motion/TiltCard";
 import { MailIcon, MapPinIcon, PhoneIcon, WhatsAppIcon } from "@/components/ui/Icons";
+import { ConsentMap } from "@/components/consent/ConsentMap";
 
 const page = getBlockPage("contact");
 export const metadata = metadataFromSeo(page.seo);
@@ -86,11 +87,11 @@ export default function ContactPage() {
             </Reveal>
             <Reveal className="lg:col-span-5" delay={0.12}>
               <div className="relative h-full min-h-96 overflow-hidden rounded-[2.25rem] bg-ink-950 shadow-[0_50px_100px_-50px_rgb(7_7_10/0.45)] ring-1 ring-ink-950/[0.06]">
-                <iframe
+                {/* Google Maps sets cookies, so it loads only after cookie consent. */}
+                <ConsentMap
                   title={`Map showing ${site.address.display}`}
                   src={mapSrc}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
+                  address={site.address.display}
                   className="absolute inset-0 h-full w-full"
                 />
               </div>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { footerNav, legalNav, site } from "@/content/site";
 import { Reveal, Stagger, StaggerItem } from "@/components/motion/Reveal";
 import { MailIcon, MapPinIcon, PhoneIcon, SocialIcon, WhatsAppIcon } from "@/components/ui/Icons";
+import { CookieSettingsButton } from "@/components/consent/CookieBanner";
 
 const company = [
   { label: "About", href: "/about/" },
@@ -80,9 +81,9 @@ export function Footer() {
             <Link
               href="/"
               aria-label={`${site.name} home`}
-              className="inline-block rounded-2xl bg-white px-5 py-3.5 shadow-[0_10px_30px_-10px_rgb(255_255_255/0.2)] transition-transform duration-500 hover:-translate-y-0.5"
+              className="inline-block rounded-2xl px-5 py-3.5 shadow-[0_10px_30px_-10px_rgb(255_255_255/0.2)] transition-transform duration-500 hover:-translate-y-0.5"
             >
-              <Image src="/images/brand/gmf-logo.png" alt={site.name} width={400} height={98} className="h-8 w-auto" />
+              <Image src="/images/brand/gmf-logo.png" alt={site.name} width={600} height={120} className="h-8 w-auto" />
             </Link>
             <p className="mt-7 max-w-sm text-sm leading-relaxed">{site.blurb}</p>
             <address className="mt-5 flex items-start gap-2.5 text-sm not-italic leading-relaxed text-white/70">
@@ -148,6 +149,7 @@ export function Footer() {
                 </Link>
               </li>
             ))}
+           
           </ul>
         </div>
       </div>

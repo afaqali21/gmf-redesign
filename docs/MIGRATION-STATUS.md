@@ -38,9 +38,9 @@ These were published after the last archive snapshot, so their text isn't availa
 - `/social-media-marketing-strategies-to-grow-your-business/` (last modified 2026-11-19)
 - `/why-every-small-business-needs-a-professional-website-in-2026/` (last modified 2026-11-23)
 
-## Page not yet migrated
+## Cookie policy (new text)
 
-- `/cookie-policy-uk/` (Complianz cookie policy, last modified 2026-11-18). It has never been archived. The footer links to it.
+- `/cookie-policy-uk/`: the Complianz cookie policy was never archived, so its original text is lost. The page now carries a new policy (`src/content/legal/cookie-policy-uk.ts`) that describes the rebuilt site: no analytics or tracking cookies, and Google Maps on `/contact/` as the only third-party embed. Have it reviewed, and update it before adding analytics or other embeds.
 
 > The law and travel pages no longer need their original photos: they use the new service photography (see DESIGN-SYSTEM.md). The originals are listed below for completeness.
 

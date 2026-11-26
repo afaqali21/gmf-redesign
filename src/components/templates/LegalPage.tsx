@@ -1,4 +1,4 @@
-import { getHtmlPage } from "@/lib/content";
+import { getHtmlPage, type HtmlPage } from "@/lib/content";
 import { SchemaGraph } from "@/lib/seo";
 import { legalNav } from "@/content/site";
 import Link from "next/link";
@@ -9,8 +9,8 @@ import { displayCase } from "./SectionViews";
 const decode = (s: string) => s.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&#8217;|&rsquo;/g, "’").replace(/&nbsp;/g, " ").trim();
 
 /** Policy documents: comfortable measure, sticky in-page index built from the document's own headings. */
-export function LegalPage({ slug }: { slug: string }) {
-  const page = getHtmlPage(slug);
+export function LegalPage({ slug, page: given }: { slug?: string; page?: HtmlPage }) {
+  const page = given ?? getHtmlPage(slug!);
   const title = displayCase(page.h1);
   const toc = [...page.html.matchAll(/<h3 id="([^"]+)">([\s\S]*?)<\/h3>/g)].map((m) => ({ id: m[1], label: decode(m[2]) })).filter((t) => t.label);
   const updated = page.seo.modified ? new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(page.seo.modified)) : null;

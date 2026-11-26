@@ -22,5 +22,6 @@ export const staticPaths = [
   "/travel-seo-services/",
   "/terms/",
   "/privacy-policy/",
+  "/cookie-policy-uk/",
   "/blog/",
 ] as const;

@@ -4,6 +4,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { site } from "@/content/site";
 import { MotionProvider } from "@/components/motion/MotionProvider";
+import { CookieBanner } from "@/components/consent/CookieBanner";
 import "./globals.css";
 
 const poppins = Poppins({
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             {children}
           </main>
           <Footer />
+          <CookieBanner />
         </MotionProvider>
       </body>
     </html>
