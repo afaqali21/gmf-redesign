@@ -1,5 +1,6 @@
 "use server";
 
+import nodemailer from "nodemailer";
 import { site } from "@/content/site";
 import { quoteServices } from "@/content/forms";
 
@@ -7,10 +8,12 @@ import { quoteServices } from "@/content/forms";
  * Handles the three forms carried over from WordPress: the quote request (/booking/, Form Maker),
  * the contact form (/contact/, Contact Form 7) and blog comments (sent for moderation).
  *
- * Delivery, in order of preference (configure in the hosting environment):
- *   RESEND_API_KEY (+ ENQUIRY_FROM, ENQUIRY_TO)  -> email via the Resend HTTP API (no extra package)
- *   ENQUIRY_WEBHOOK_URL                          -> JSON POST to any webhook (Zapier, Make, Slack, CRM…)
- * Without either, development logs the enquiry; production returns an error asking the visitor
+ * Every enquiry is emailed to info@globalmarketingfirm.co.uk (override with ENQUIRY_TO, comma-separated).
+ * Delivery, in order of preference (configure in the hosting environment, see .env.example):
+ *   SMTP_HOST + SMTP_USER + SMTP_PASS (+ SMTP_PORT)  -> sent through GMF's own mailbox (nodemailer)
+ *   RESEND_API_KEY (+ ENQUIRY_FROM)                  -> email via the Resend HTTP API
+ *   ENQUIRY_WEBHOOK_URL                              -> JSON POST to any webhook (Zapier, Make, CRM…)
+ * Without any of them, development logs the enquiry; production returns an error asking the visitor
  * to phone or email instead, so no enquiry is ever silently lost.
  */
 
@@ -32,14 +35,34 @@ async function deliver(kind: Kind, subject: string, fields: Record<string, strin
     .filter(([, v]) => v)
     .map(([k, v]) => `${k}: ${v}`)
     .join("\n");
+  const to = (process.env.ENQUIRY_TO ?? site.email).split(",").map((s) => s.trim()).filter(Boolean);
 
+  if (process.env.SMTP_HOST && process.env.SMTP_USER && process.env.SMTP_PASS) {
+    const port = Number(process.env.SMTP_PORT ?? 465);
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port,
+      // 465 = TLS from the start; 587/25 upgrade with STARTTLS. SMTP_SECURE overrides.
+      secure: process.env.SMTP_SECURE ? process.env.SMTP_SECURE === "true" : port === 465,
+      auth: { user: process.env.SMTP_USER, pass: process.env.SMTP_PASS },
+    });
+    await transporter.sendMail({
+      // Sent from the mailbox itself, so the provider accepts it and it passes SPF/DKIM.
+      from: { name: `${site.name} website`, address: process.env.ENQUIRY_FROM ?? process.env.SMTP_USER },
+      to,
+      replyTo: fields.Email || undefined,
+      subject,
+      text,
+    });
+    return;
+  }
   if (process.env.RESEND_API_KEY) {
     const res = await fetch("https://api.resend.com/emails", {
       method: "POST",
       headers: { Authorization: `Bearer ${process.env.RESEND_API_KEY}`, "Content-Type": "application/json" },
       body: JSON.stringify({
         from: process.env.ENQUIRY_FROM ?? `Website <no-reply@globalmarketingfirm.co.uk>`,
-        to: (process.env.ENQUIRY_TO ?? site.email).split(","),
+        to,
         reply_to: fields.Email || undefined,
         subject,
         text,
