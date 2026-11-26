@@ -65,12 +65,19 @@ Every page in the WordPress sitemap is rebuilt at its original URL with its orig
 
 ### Forms
 
-The quote form (`/booking/`), contact form (`/contact/`) and blog comment form use the same fields as on WordPress. They submit to server actions in `src/app/actions/enquiry.ts`, which validate the input and replace reCAPTCHA with a honeypot field and a minimum fill time. Set one delivery method in the hosting environment:
+The quote form (`/booking/`), contact form (`/contact/`) and blog comment form use the same fields as on WordPress. They submit to server actions in `src/app/actions/enquiry.ts`, which validate the input and replace reCAPTCHA with a honeypot field and a minimum fill time.
 
-- `RESEND_API_KEY` (plus optional `ENQUIRY_TO`, default `info@globalmarketingfirm.co.uk`, and `ENQUIRY_FROM`): sends email through the Resend API. No extra package is needed.
-- or `ENQUIRY_WEBHOOK_URL`: sends a JSON POST to a webhook (Zapier, Make, a CRM).
+**Every submission is emailed to info@globalmarketingfirm.co.uk.** Each email has the subject "Quote request: <name>" or "Website message: …", and its Reply-To is the customer, so you can reply straight to them. The site sends through the info@ mailbox itself over SMTP (`nodemailer`). Add these settings in the hosting environment (template: `.env.example`):
 
-Without either, development logs each enquiry to the server console. Production shows the visitor a message asking them to phone or email instead, so no enquiry is lost silently. Comments are emailed for moderation; they aren't published automatically.
+| Setting | Value |
+|---|---|
+| `SMTP_HOST` | the mailbox provider's SMTP server: `smtp.gmail.com` (Google Workspace), `smtp.office365.com` (Microsoft 365) or `mail.globalmarketingfirm.co.uk` (cPanel hosting) |
+| `SMTP_PORT` | `465` (or `587` for Microsoft 365) |
+| `SMTP_USER` | `info@globalmarketingfirm.co.uk` |
+| `SMTP_PASS` | the mailbox password. Google Workspace needs an App Password. |
+| `ENQUIRY_TO` | optional; defaults to `info@globalmarketingfirm.co.uk`. Separate several addresses with commas. |
+
+Without SMTP settings, the site falls back to `RESEND_API_KEY` or `ENQUIRY_WEBHOOK_URL` if either is set. If none is configured, development logs the enquiry and production asks the visitor to phone or email instead, so nothing is lost silently. Comments are emailed for moderation; they aren't published automatically.
 
 ### Inner-page changes from WordPress
 
@@ -136,5 +143,5 @@ These changes were approved on 2026-11-25:
 - **31 posts and `/cookie-policy-uk/` aren't migrated yet.** Their text was never archived and the live site blocks automated access, so these URLs return 404. Three of these posts are linked from the homepage "Latest from the blog" section, and the cookie policy is linked from the footer. Supply a WordPress export (Tools → Export) or whitelist the server's IP, then rerun the migration. The list is in `docs/MIGRATION-STATUS.md`.
 - **Copy `wp-content/uploads` from the WordPress server** into `public/wp-content/uploads`, then rebuild. Some image references (case-study photos, 11 post thumbnails, images inside older posts) are missing. They reappear automatically once the files are in place.
 - Replace the placeholder `/wp-content/uploads/2024/05/global-marketing-firm.png` (the Open Graph image) with the original.
-- Configure form delivery (`RESEND_API_KEY` or `ENQUIRY_WEBHOOK_URL`) before go-live.
+- Add the info@ mailbox SMTP settings (`SMTP_HOST`, `SMTP_PORT`, `SMTP_USER`, `SMTP_PASS`) to the hosting before go-live, or the forms can't send.
 - Decide whether to fix the typos listed under "Inner-page changes from WordPress".
